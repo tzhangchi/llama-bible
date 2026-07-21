@@ -1,0 +1,4 @@
+interface:
+  display_name: "Maintain LlamaGen"
+  short_description: "Route and verify LlamaGen workspace changes"
+  default_prompt: "Use $maintain-llamagen to identify the right LlamaGen project, make a scoped change, and verify it."
