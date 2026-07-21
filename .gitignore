@@ -1,0 +1,25 @@
+# Ignore LlamaGen projects
+/backend.llamagen.ai/
+/context_base/
+/draw/
+/echo-nextjs16/
+/generate-server/
+/getevernow.com/
+/help.llamagen.ai/
+/heyform/
+/llama-canvas.llamagen.ai/
+/llamagen-cli/
+/llamagen.ai/
+/manga-translator/
+/manga.llamagen.ai/
+/oss.llamagen.ai/
+/presenton-unified/
+/story.llamagen.ai/
+/tmp/
+/waiting-animation/
+/workflow.llamagen.ai/
+
+# Ignore local files
+/open.sh
+.vscode/
+.env.*
