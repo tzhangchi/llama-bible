@@ -147,9 +147,16 @@ assets/              # 输出会直接复用的模板或资源
 2. 读取该项目已有的本地指引，不要覆盖来自项目自身的约定。
 3. 核实 remote、默认分支、包管理器、锁文件、开发端口和最小验证命令。
 4. 更新 `.codex/AGENTS.md`、`workspace-map.md` 和 `workspace-status.sh`。
-5. 只有项目确实存在长期专属规则时，才新增 `<project>/AGENTS.md`。
-6. 只有项目带来了可重复且独立的维护流程时，才新增 skill；通常先扩展 `maintain-llamagen`。
-7. 不要在接入过程中自动部署、迁移、上传、推送或创建缺失仓库。
+5. 如果项目经由主站代理接入，同时更新 `llamagen.ai/next.config.js` 和 `.codex/skills/maintain-llamagen/references/local-development.md`，记录端口、origin 变量、rewrite 阶段与路由范围。
+6. 如果项目使用主应用数据库，它的 `prisma/schema.prisma` 只能是 `llamagen.ai/prisma/schema.prisma` 的消费副本，不能成为第二个 schema 或 migration 源头。
+7. 只有项目确实存在长期专属规则时，才新增 `<project>/AGENTS.md`。
+8. 只有项目带来了可重复且独立的维护流程时，才新增 skill；通常先扩展 `maintain-llamagen`。
+9. 不要在接入过程中自动部署、迁移、上传、推送或创建缺失仓库。
+
+维护现有跨项目关系时遵循两个同步约定：
+
+- `llamagen.ai/next.config.js` 中的本地 origin、端口、rewrite 阶段或路由范围发生变化时，同步更新 `local-development.md`，并通过端口 3000 验证一条代表性集成路由。
+- 主数据库结构只能先改 `llamagen.ai/prisma/schema.prisma`。源文件评审通过后，再完整复制到明确受影响的消费仓库；禁止在副本里先改字段、模型或 migration。
 
 ## 6. 验证清单
 
@@ -172,6 +179,9 @@ python "${CODEX_HOME:-$HOME/.codex}/skills/.system/skill-creator/scripts/quick_v
 
 # 校验 shell 脚本语法；再以安全参数实际运行
 bash -n .codex/skills/<skill-name>/scripts/<script>.sh
+
+# 查看主 Prisma schema 与已知消费副本的漂移；同步任务完成后可加 --check
+.codex/skills/maintain-llamagen/scripts/schema-copy-status.sh
 
 # 检查当前根仓库和每个受影响子仓库
 git status --short -- .codex .agents AGENTS.md

@@ -65,10 +65,20 @@ Typical checks:
 4. Review the resulting diff in each repository separately.
 5. Do not mass-copy lockfiles, generated files, environment files, Prisma migrations, or deployment configuration.
 
+## Primary Prisma schema change
+
+Read [local-development.md](local-development.md) before changing the database contract.
+
+1. Make models, enums, fields, relations, indexes, and mappings authoritative in `llamagen.ai/prisma/schema.prisma` only.
+2. Generate and inspect the primary migration only in `llamagen.ai`; do not create competing migrations in Backend, Story, OSS, or Manga Translator.
+3. Copy the complete source schema into each explicitly affected consumer after the source diff is accepted.
+4. Review each consumer diff and regenerate its Prisma client using that repository's existing toolchain.
+5. Run `scripts/schema-copy-status.sh`; use `--check` only when all known copies are intentionally included.
+6. Treat production migration execution as a separate explicit action.
+
 ## Final review
 
 - Run `scripts/workspace-status.sh`.
 - Inspect `git -C <project> diff --check` and `git -C <project> diff --stat` for every modified child repository.
 - Confirm no secret, generated cache, report, credential, or environment file was added.
 - Report the exact repositories changed and the exact checks run.
-

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Develop Context Base Pages"
+  short_description: "Build production-ready context_base feature pages"
+  default_prompt: "Use $develop-context-base-pages to build and verify a new localized context_base feature page."

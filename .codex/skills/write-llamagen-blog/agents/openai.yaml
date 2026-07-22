@@ -1,0 +1,4 @@
+interface:
+  display_name: "LlamaGen Blog Writer"
+  short_description: "Draft, publish, and verify LlamaGen blogs"
+  default_prompt: "Use $write-llamagen-blog to draft, review, publish, and verify a LlamaGen blog article."

@@ -23,7 +23,7 @@
 
 | Project | Primary responsibility | Safe local entry points |
 | --- | --- | --- |
-| `backend.llamagen.ai` | API-oriented Next.js checkout: generation/public APIs, files, marketing jobs, OpenAPI, Prisma | `npm run dev` (`:3001`), targeted Jest tests |
+| `backend.llamagen.ai` | API-oriented Next.js checkout: generation/public APIs, files, marketing jobs, OpenAPI, copied Prisma schema | `npm run dev` (`:3001`), targeted Jest tests |
 | `context_base` | Cloudflare/Vinext public pages, OC Maker, SEO, localization, redirects, page configs, CDN-backed content | `npm run dev` (`:3005`), `npm run test-pages`, `npm run test:unit` |
 | `draw` | LlamaGen Draw canvas, shortcuts, save/history, export, character-image flows | `npm run dev`, targeted Jest/Playwright checks |
 | `generate-server` | Trigger.dev generation orchestration, model/provider behavior, comic crops/layouts, HTTP generation server | `npm test`, `npm run dev`, `npm start` |
@@ -31,7 +31,7 @@
 | `heyform` | Not present in this workspace snapshot | Locate the checkout or ask before creating it |
 | `llama-canvas.llamagen.ai` | Not present in this workspace snapshot | Locate the checkout or ask before creating it |
 | `llamagen-cli` | Chat-agent CLI, scenario simulation, regression evaluation, quality reports | `npm test`; read its README for command modes |
-| `llamagen.ai` | Main product checkout and principal integration surface: product UI, shared API routes, workflow/story proxies, billing and Prisma | `npm run dev` (`:3000`), targeted Jest/Playwright checks |
+| `llamagen.ai` | Main product checkout and principal integration surface: product UI, shared API routes, workflow/story proxies, billing, and authoritative Prisma schemas | `npm run dev` (`:3000`), targeted Jest/Playwright checks |
 | `manga-translator` | `/translate` application: OCR/translation/typesetting, image projects, export, R2/CDN integration | `npm run dev` (`:5002`), `npm test`, `npm run lint`, `npm run build:local` |
 | `manga.llamagen.ai` | Browser-first Manga Editor: canvas/layers, prompt composer, AI providers, persistence/version history | `npm run dev`, `npm run test:pages`, `npm run format:check` |
 | `oss.llamagen.ai` | Admin/operations UI, reporting, feedback, flags, billing analytics, internal SDK tooling | `npm run dev` (`:4000`), targeted Jest/Playwright checks |
@@ -43,6 +43,15 @@ Read `.codex/skills/maintain-llamagen/references/workspace-map.md` for detailed 
 
 ## Cross-project boundaries
 
+### Local integrated development
+
+- Treat `llamagen.ai/next.config.js` as the executable routing map for local multi-project development. Read `.codex/skills/maintain-llamagen/references/local-development.md` before starting or debugging an integrated route.
+- Start the required downstream services first, start `llamagen.ai` on port 3000 last, and access the feature through `http://localhost:3000` so rewrites, cookies, authentication, and relative `/api/**` calls follow the real integration path.
+- Current default local ports are Backend 3001, Context Base 3005, OSS 4000, Workflow 5001, Manga Translator 5002, Manga Editor 8000, and Story 9000. Do not assume a silently selected replacement port updates the main-site proxy.
+- Rewrite phase matters: `beforeFiles` routes bypass matching main-site filesystem routes, while `afterFiles` routes allow a matching `llamagen.ai` page or API to win first.
+- `context_base` requires `CONTEXT_BASE_ORIGIN=http://localhost:3005` (or the legacy `CONTEXT_BASE_DEV_ORIGIN`) for local integration; otherwise the main site uses the remote Context Base origin even in development.
+- The main site currently keeps `/draw` pointed at the remote Draw deployment; starting `draw` does not locally wire `localhost:3000/draw`.
+
 ### Main site and specialized frontends
 
 - The main site at `llamagen.ai` runs locally on port 3000 and proxies selected product routes to specialized frontends.
@@ -53,13 +62,21 @@ Read `.codex/skills/maintain-llamagen/references/workspace-map.md` for detailed 
 ### Overlapping API checkouts
 
 - `backend.llamagen.ai` and `llamagen.ai` both contain overlapping Next.js API and Prisma trees but have different remotes and histories.
-- Determine the deployment/source-of-truth repository from the task, current routing, local instructions, and recent commits before editing. Do not mirror a change between them automatically.
-- If ownership remains ambiguous, present the concrete duplicate paths and ask which deployment target is authoritative before making schema migrations or broad API changes.
+- Determine API deployment ownership from the task, `llamagen.ai/next.config.js`, local instructions, and recent commits before editing overlapping API routes. Do not mirror API changes automatically.
+- Prisma ownership is not ambiguous: primary schema changes originate only in `llamagen.ai/prisma/schema.prisma`; `backend.llamagen.ai/prisma/schema.prisma` is a consumer copy.
+
+### Prisma schema source of truth
+
+- The sole source of truth for the primary application database schema is `llamagen.ai/prisma/schema.prisma`. Never originate a model, enum, field, relation, index, or mapping change in another repository.
+- `backend.llamagen.ai`, `story.llamagen.ai`, `oss.llamagen.ai`, and `manga-translator` consume copied `prisma/schema.prisma` files. After changing and reviewing the source, copy the complete file only to affected consumers and review each repository diff separately.
+- Generate primary-schema migrations only in `llamagen.ai`. Consumer repositories may regenerate their Prisma clients from the copied schema but must not create an independent migration history for the same database.
+- Treat differences in a consumer schema as drift to reconcile through the authoritative source, not as permission to maintain a fork. Use `.codex/skills/maintain-llamagen/scripts/schema-copy-status.sh` to inspect current drift.
+- The marketing database has a separate authoritative file at `llamagen.ai/prisma/marketing/schema.prisma`; marketing-schema changes must also originate in `llamagen.ai`, never in consumer copies.
 
 ### Admin and operations
 
 - Keep admin pages and dashboards in `oss.llamagen.ai`.
-- Keep public/admin APIs and marketing-schema migrations in the selected main/API checkout. Do not create a second API merely to make local admin development easier.
+- Keep public/admin APIs in their verified authoritative API checkout. Keep marketing schema design and migrations only in `llamagen.ai`; do not create a second API or schema authority merely to make local admin development easier.
 - Use relative `/api/**` requests through the integrated development proxy unless a repository's local instructions explicitly require an isolated origin.
 
 ### Generation and creative tools
@@ -74,7 +91,7 @@ Read `.codex/skills/maintain-llamagen/references/workspace-map.md` for detailed 
 - API work: test success, validation failure, authorization, idempotency/duplicate protection, and structured error behavior.
 - Generation work: cover blank/partial provider output, reference-image constraints, layout dimensions, retries, and analytics/credit side effects where relevant.
 - UI work: verify desktop and mobile layouts, loading/empty/error states, text overflow, keyboard/touch behavior, and the existing design language.
-- Data/schema work: generate and inspect migrations in the authoritative repository; never run a production migration as part of routine verification.
+- Data/schema work: change and generate primary-schema migrations only in `llamagen.ai`, synchronize complete schema copies to affected consumers, regenerate their clients, and never run a production migration as part of routine verification.
 - Generated/CDN content: validate locally or in dry-run mode before any upload or purge command.
 
 ## Handoff

@@ -1,6 +1,6 @@
 ---
 name: maintain-llamagen
-description: Route, implement, debug, review, and verify maintenance across the LlamaGen umbrella workspace and its independent repositories. Use when a task mentions backend.llamagen.ai, context_base, draw, generate-server, help.llamagen.ai, heyform, llama-canvas.llamagen.ai, llamagen-cli, llamagen.ai, manga-translator, manga.llamagen.ai, oss.llamagen.ai, story.llamagen.ai, waiting-animation, or workflow.llamagen.ai; also use for cross-repository API/proxy contracts, generation providers, public pages, SEO, localization, CDN assets, admin operations, editor persistence, or workspace-wide status checks. Do not use for unrelated repositories.
+description: Route, implement, debug, review, and verify maintenance across the LlamaGen umbrella workspace and its independent repositories. Use when a task mentions backend.llamagen.ai, context_base, draw, generate-server, help.llamagen.ai, heyform, llama-canvas.llamagen.ai, llamagen-cli, llamagen.ai, manga-translator, manga.llamagen.ai, oss.llamagen.ai, story.llamagen.ai, waiting-animation, or workflow.llamagen.ai; also use for cross-repository API/proxy contracts, local multi-service development, Prisma schema synchronization, generation providers, public pages, SEO, localization, CDN assets, admin operations, editor persistence, or workspace-wide status checks. Do not use for unrelated repositories.
 ---
 
 # Maintain LlamaGen
@@ -24,7 +24,7 @@ For every selected project:
 3. Inspect `package.json`, the active lockfile, relevant source files, tests, and recent commits.
 4. Search for all producers and consumers of any changed API field, event, route, persisted shape, generated file, or asset URL.
 
-Treat `backend.llamagen.ai` and `llamagen.ai` as overlapping but distinct checkouts. Establish the authoritative deployment target before changing shared APIs or Prisma schemas.
+Treat `backend.llamagen.ai` and `llamagen.ai` as overlapping but distinct API checkouts. Establish the authoritative deployment target before changing shared APIs. The primary Prisma schema has one fixed authority: `llamagen.ai/prisma/schema.prisma`.
 
 ## Choose the playbook
 
@@ -37,12 +37,15 @@ Read [references/playbooks.md](references/playbooks.md) when the request involve
 - admin dashboards, marketing jobs, email, flags, billing, or migrations;
 - shared code drift between similar LlamaGen checkouts.
 
+Read [references/local-development.md](references/local-development.md) whenever the task involves local ports, main-site rewrites, origin environment variables, multi-project startup, route ownership through `llamagen.ai/next.config.js`, Prisma schema changes, migrations, copied schemas, or Prisma client regeneration.
+
 ## Implement safely
 
 - Make the smallest coherent change in the owning repository first.
 - Update consumers in the same task when a contract changes; otherwise record the exact follow-up.
 - Reuse existing scripts, schemas, page-config sources, and generated-file pipelines instead of hand-editing generated outputs.
 - Keep API calls relative when traffic is intentionally routed through the main-site development proxy.
+- Originate primary Prisma changes and migrations only in `llamagen.ai`; synchronize the complete `prisma/schema.prisma` into affected consumer repositories only after reviewing the source change.
 - Do not deploy, upload, purge CDN caches, migrate production data, send messages, run cron jobs, activate providers, or push unless explicitly requested.
 - Never expose `.env*`, credential JSON, API keys, customer content, or local reports.
 

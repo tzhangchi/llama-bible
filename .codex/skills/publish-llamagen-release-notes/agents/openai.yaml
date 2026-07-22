@@ -1,0 +1,4 @@
+interface:
+  display_name: "Publish LlamaGen Release Notes"
+  short_description: "Draft, review, illustrate, translate, and publish releases"
+  default_prompt: "Use $publish-llamagen-release-notes to prepare a reviewable LlamaGen release-note batch and stop before publishing."

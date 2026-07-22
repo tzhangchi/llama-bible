@@ -8,13 +8,20 @@ The umbrella root is a small Git repository that tracks shared guidance while ig
 
 Use `../scripts/workspace-status.sh` for a current snapshot.
 
+## Local integration and database authority
+
+- Use [local-development.md](local-development.md) for the current `llamagen.ai/next.config.js` rewrite topology, origin variables, startup order, route families, and troubleshooting.
+- Enter integrated routes through `llamagen.ai` on port 3000. Start only the required downstream services first and keep browser API requests relative.
+- The primary Prisma schema authority is always `llamagen.ai/prisma/schema.prisma`. Same-named schemas in Backend, Story, OSS, and Manga Translator are consumer copies, even when their current contents have drifted.
+- Generate the primary migration history only in `llamagen.ai`; copy the complete schema into affected consumers and regenerate their clients there.
+
 ## Project ownership and maintenance history
 
 ### `backend.llamagen.ai`
 
 - Remote: `aregrid/backend.llamagen.ai`, branch observed: `master`.
 - Stack: Next.js 14, React 18, Prisma, Jest; local port 3001.
-- Owns an API-oriented checkout with public/generation endpoints, file management, OpenAPI, marketing jobs, and Prisma schemas.
+- Owns an API-oriented checkout with public/generation endpoints, file management, OpenAPI, and marketing jobs. Its primary `prisma/schema.prisma` is copied from `llamagen.ai` and is not authoritative.
 - Recent maintenance themes: unknown-API alert filtering, duplicate marketing-email prevention, comic reference-image support, batch file deletion, folder/label file management, and OpenAPI v1 exposure.
 - Verify with targeted Jest tests. A full build can trigger `postbuild` upload behavior, so do not use it casually.
 
@@ -74,6 +81,7 @@ Use `../scripts/workspace-status.sh` for a current snapshot.
 - Remote: `tzhangchi/llamagen.ai`, branch observed: `master`.
 - Stack: Next.js 14, React 18, Prisma, Jest, Playwright; main local port 3000.
 - Owns the principal product checkout and integration surface, including shared APIs and the backends consumed by Workflow/Story proxies.
+- Owns the authoritative primary database schema at `prisma/schema.prisma` and the authoritative marketing schema at `prisma/marketing/schema.prisma`.
 - Recent maintenance themes: Storyboard/outfit/character asset workflows, model-tier selection, GPT Image support, iOS receipts/privacy manifests, security path guards, SEO recovery, editorial content, and workflow chatbot persistence.
 - Use targeted Jest/Playwright checks. Treat schema changes, migrations, provider activation, emails, and CDN scripts as explicit-effect operations.
 
@@ -82,6 +90,7 @@ Use `../scripts/workspace-status.sh` for a current snapshot.
 - Remote: `aregrid/translate.llamagen.ai`, branch observed: `main`.
 - Stack: Next.js 16, React 19, Prisma, Node test runner; local port 5002.
 - Owns `/translate` routes, image projects, OCR/manual editing, translation, cleaned-page typesetting, batch export, R2/CDN uploads, and structured API errors.
+- Its primary `prisma/schema.prisma` is a consumer copy from `llamagen.ai`; do not originate schema changes or migrations here.
 - Recent maintenance themes: route namespace/proxy fixes, production asset prefixes, R2 endpoint normalization, Vertex permission errors, typeset endpoints, multipart parameters, and ZIP export.
 - Run `npm test`, `npm run lint`, and `npm run build:local`; normal `build` uploads CDN assets.
 
@@ -99,6 +108,7 @@ Use `../scripts/workspace-status.sh` for a current snapshot.
 - Remote: `aregrid/oss.llamagen.ai`, branch observed: `master`.
 - Stack: Next.js 16, React 19, Prisma, Jest, Playwright; local port 4000.
 - Owns admin/operations UI and internal tools: reports, feedback, flags, billing analytics, emails, SDKs, and prototypes.
+- Its primary `prisma/schema.prisma` is a consumer copy from `llamagen.ai`; keep database schema design and migration history in the main checkout.
 - Recent maintenance themes: feedback summary email/cron diagnostics, cancellation metrics, Redis flag editing, manual-search gating, Node upgrades, and internal SDK/extension work.
 - Keep admin APIs and database truth in the selected main/API checkout. Verify UI here and API authorization/idempotency there.
 
@@ -107,6 +117,7 @@ Use `../scripts/workspace-status.sh` for a current snapshot.
 - Remote: `aregrid/story.llamagen.ai`, branch observed: `master`.
 - Stack: Next.js 14, React 18, Prisma client, Jest, Playwright; local port 9000.
 - Owns the Story workspace and Story-specific UI, collaboration, prompts, organizations, and route behavior.
+- Its primary `prisma/schema.prisma` is a consumer copy from `llamagen.ai`; local package scripts already forbid database migrations here.
 - Recent maintenance themes: collaborative editing and undo/redo, visual-scene briefs, wordless image prompt constraints, organization invitations, and Cloudflare location headers.
 - Use `npm run build:local` rather than upload builds. Its package scripts deliberately forbid local database migrations; change schema/API in the authoritative main/API checkout.
 
@@ -131,4 +142,3 @@ Use `../scripts/workspace-status.sh` for a current snapshot.
 - Some `build` scripts upload CDN assets through `postbuild`; choose `build:local` or targeted checks when available.
 - Some live evaluation, email, marketing, provider, migration, sync, and purge scripts can mutate external systems. Inspect the script and require explicit authorization before running it.
 - Absolute paths in older guidance predate this umbrella layout. Resolve them against the current workspace and verify the file exists.
-
