@@ -59,6 +59,23 @@ Read `.codex/skills/maintain-llamagen/references/workspace-map.md` for detailed 
 - `workflow.llamagen.ai` owns workflow UI on port 5001. Workflow session/message/operation persistence, permissions, feedback, and backend API truth live in the main/API checkout, not in duplicated frontend proxy routes.
 - `story.llamagen.ai` owns the Story UI on port 9000. Respect its explicit database-change restrictions and use the main/API checkout for backend schema or API work.
 
+### Public Context Base routing
+
+- Production traffic also passes through the Cloudflare Worker `llamagen-id-proxy`, which chooses between `global.llamagen.ai` and `contextbase-cloudflare.llamagen.ai`. Context Base route matching must run before the generic `/:locale/** -> global` fallback.
+- Keep the Worker's Context Base feature allowlist synchronized with Context Base's actual feature routes, `llamagen.ai/next.config.js`, and `llamagen.ai/public/sitemap/context_base_sitemap.json`. A stale allowlist can turn an indexed localized URL such as `/:locale/features/ai-white-background` into `/api/lightweight-404` while the Context Base page itself remains healthy.
+- Do not proxy every `/features/**` path to Context Base; main-owned feature pages must continue to use the global origin. Test both an allowed Context Base slug and a main-owned negative control.
+- Context Base proxy requests must preserve the public host in `X-Forwarded-Host`, use `X-Forwarded-Proto: https`, and target the Context Base deployment host. Diagnose production routing with `x-llamagen-route-target`, `x-llamagen-target-host`, and `x-matched-path` before changing page code.
+- Whenever a Context Base public route or proxy allowlist changes, add localized production E2E coverage (including `id`), verify representative URLs return 200 through `llamagen.ai`, and treat Worker deployment as a separate explicitly authorized action.
+- Treat routing ownership as one contract rather than maintaining unrelated allowlists in the Worker, both Next.js projects, tests, and sitemap generation. Prefer deriving those consumers from one reviewed route manifest; until that exists, compare every consumer in the same change.
+- Sitemap `loc` and `hreflang` targets must be direct 200 canonical pages. Do not expand locale variants for Context Base route families that intentionally redirect to an unprefixed canonical URL, and fail production checks when an indexed URL returns a redirect or 404.
+- Keep the Worker's `global.llamagen.ai` target on the same intended main-site revision as the public deployment. Feature-only E2E is insufficient: include a non-feature public route and an authenticated/studio route added in the current release so an `id`-only stale-origin 404 cannot pass production checks.
+
+### Registration reliability
+
+- Use the same case-normalization rule when generating, storing, looking up, and verifying email tokens. Cover mixed-case non-Gmail addresses with an integration test, not only a mocked normalizer.
+- Do not display an email-sent or registration-success state until the provider confirms the send request succeeded. A deliberate risk/temp-email rejection must return a handled failure instead of an ignored boolean.
+- Do not mutate a shared NextAuth options object with a request-capturing callback. Build request-scoped auth options so concurrent OAuth, session, and email requests cannot use another request's CAPTCHA or callback context.
+
 ### Overlapping API checkouts
 
 - `backend.llamagen.ai` and `llamagen.ai` both contain overlapping Next.js API and Prisma trees but have different remotes and histories.
