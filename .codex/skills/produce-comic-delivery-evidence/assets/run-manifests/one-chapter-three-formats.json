@@ -1,0 +1,943 @@
+{
+  "schemaVersion": 1,
+  "caseId": "one-chapter-three-formats",
+  "scope": "generation-run",
+  "archivedAt": "2026-08-11T18:37:18.978Z",
+  "source": "llamagen.ai/tmp/comic-delivery-evidence/one-chapter-three-formats",
+  "archive": ".codex/skills/produce-comic-delivery-evidence/assets/local-run-archives/one-chapter-three-formats",
+  "storageMode": "copy-fallback",
+  "fallbackCopies": 154,
+  "summary": {
+    "files": 154,
+    "bytes": 748966933,
+    "textFiles": 24,
+    "imageFiles": 118,
+    "otherFiles": 12
+  },
+  "files": [
+    {
+      "path": "approved-section.json",
+      "bytes": 22845,
+      "sha256": "46346e253c18a21d48585f6853d0a7e789c1ade9349810a606e4a62adc216553",
+      "kind": "text"
+    },
+    {
+      "path": "approved-section.md",
+      "bytes": 3410,
+      "sha256": "c79a7c8cc8622527bd3d23b8f848004fa82abd462570845c554a84dac7a8e051",
+      "kind": "text"
+    },
+    {
+      "path": "artifacts/cdn-verification.json",
+      "bytes": 24927,
+      "sha256": "2a118a7387810520a0a25a2f829dd2e7ed0d9b88cdf052fd9346e8ac1f50b6cf",
+      "kind": "text"
+    },
+    {
+      "path": "artifacts/character-references/jun-park.png",
+      "bytes": 2924511,
+      "sha256": "f2a0d94e50b5fa32df5dc55ec04ac2e1928cbfd27ba94efb34f932426031b9f3",
+      "kind": "image"
+    },
+    {
+      "path": "artifacts/character-references/kai-okafor.png",
+      "bytes": 3269552,
+      "sha256": "f32b8e07acc0a8151ef968b4e546e658fb7d737a1c69f76f5b0d997b7ed287fe",
+      "kind": "image"
+    },
+    {
+      "path": "artifacts/character-references/lina-chen.png",
+      "bytes": 2641327,
+      "sha256": "06d287e63f722a0e0b57683c524c4421c3270ec66421f0d10e2002ee1e5c09f3",
+      "kind": "image"
+    },
+    {
+      "path": "artifacts/character-references/mara-velez.png",
+      "bytes": 3034334,
+      "sha256": "c9a2f9fd57c1bddebc71875c16a7e0413d080d1ed2f6a1f2cb4e7ce601bc8d85",
+      "kind": "image"
+    },
+    {
+      "path": "artifacts/character-registry.png",
+      "bytes": 1778418,
+      "sha256": "6f8832d2fcc96761a3426254b8c5a9d2ee204eeb14f790f74c8b9cdc532cbede",
+      "kind": "image"
+    },
+    {
+      "path": "artifacts/deliverables/delivery-manifest.json",
+      "bytes": 3316,
+      "sha256": "7aeed7be615c2e8fb3ee9ef36ce2e58b12b3b1df344a1ddadfc316be6fd54ee1",
+      "kind": "text"
+    },
+    {
+      "path": "artifacts/deliverables/the-skybridge-signal-japanese-manga.cbz",
+      "bytes": 7711619,
+      "sha256": "fd8496e93c367efbb40e8a3dd2cc0ae11b5521fda0f7ec0bb5d4bb6474702fa3",
+      "kind": "other"
+    },
+    {
+      "path": "artifacts/deliverables/the-skybridge-signal-japanese-manga.pdf",
+      "bytes": 11021536,
+      "sha256": "cf709915120517a9360ccee09737f7ca89e94eb67df7febd10a434bcd364a128",
+      "kind": "other"
+    },
+    {
+      "path": "artifacts/deliverables/the-skybridge-signal-vertical-webtoon.cbz",
+      "bytes": 24840849,
+      "sha256": "89c4646fd66c1ec9a1392b8b9dbfae9a149cc5a87a5638c2c881c5f704556365",
+      "kind": "other"
+    },
+    {
+      "path": "artifacts/deliverables/the-skybridge-signal-vertical-webtoon.pdf",
+      "bytes": 40757464,
+      "sha256": "562927c54e350df77543ac08523a797a29aa476311e6e586ec80072d27d35f92",
+      "kind": "other"
+    },
+    {
+      "path": "artifacts/deliverables/the-skybridge-signal-western-comic.cbz",
+      "bytes": 18850595,
+      "sha256": "0eaf5b5b58dc748a1ffd774397cbcf1dd37b39c96ff2ef8b0ece057af4ddb1a8",
+      "kind": "other"
+    },
+    {
+      "path": "artifacts/deliverables/the-skybridge-signal-western-comic.pdf",
+      "bytes": 22304386,
+      "sha256": "487a4e7027d3638489030dbeaa733ef0666be6c41bec423b066e9d48be20460e",
+      "kind": "other"
+    },
+    {
+      "path": "artifacts/deliverables/webtoon-pages/page-01.png",
+      "bytes": 2144289,
+      "sha256": "b004ac172df01a61700e75f4c6bcbe0704b0281bc8d63163a7adf7cdda20fbf0",
+      "kind": "image"
+    },
+    {
+      "path": "artifacts/deliverables/webtoon-pages/page-02.png",
+      "bytes": 1966034,
+      "sha256": "84f828cd7cd9c8793d64d533a40a800eecc63ba9237ad8d116b8dbfa7090d10a",
+      "kind": "image"
+    },
+    {
+      "path": "artifacts/deliverables/webtoon-pages/page-03.png",
+      "bytes": 1757197,
+      "sha256": "6bd4b5bb847eeab6d9351fe2b3769bce9ca7f22c453b33a4aa42ab59731adff8",
+      "kind": "image"
+    },
+    {
+      "path": "artifacts/deliverables/webtoon-pages/page-04.png",
+      "bytes": 1893643,
+      "sha256": "20570370458a2985b8f3080563fc03c785a7c6388d81759e2d99e5846412b561",
+      "kind": "image"
+    },
+    {
+      "path": "artifacts/deliverables/webtoon-pages/page-05.png",
+      "bytes": 2362020,
+      "sha256": "9e873f8ef4fa2366e1b5ca54d04da7f5f318333a155597dcade255f7798fb7af",
+      "kind": "image"
+    },
+    {
+      "path": "artifacts/deliverables/webtoon-pages/page-06.png",
+      "bytes": 2338057,
+      "sha256": "6e94fdb6ab05c4d79e55c25471079246984045e5729877615e66ed66cae759ac",
+      "kind": "image"
+    },
+    {
+      "path": "artifacts/deliverables/webtoon-pages/page-07.png",
+      "bytes": 2049339,
+      "sha256": "e7e97e2b72c2d864c35bfaa3854d6c9eb665605498342c8a0c5ff20caeed58e6",
+      "kind": "image"
+    },
+    {
+      "path": "artifacts/deliverables/webtoon-pages/page-08.png",
+      "bytes": 2097905,
+      "sha256": "f622306b09796422868fa059d7c30936641c4701e3de76d366f06479d00e86e7",
+      "kind": "image"
+    },
+    {
+      "path": "artifacts/deliverables/webtoon-pages/page-09.png",
+      "bytes": 2022996,
+      "sha256": "50d69f349e3899d4702ab141fa39f3330868f83b058dc55edefdd4ddeefcb2af",
+      "kind": "image"
+    },
+    {
+      "path": "artifacts/deliverables/webtoon-pages/page-10.png",
+      "bytes": 2350222,
+      "sha256": "5a966cc57bbe4411f297eb9ea9f630ea41b4eb962118642a9c2b45aa909afd03",
+      "kind": "image"
+    },
+    {
+      "path": "artifacts/deliverables/webtoon-pages/page-11.png",
+      "bytes": 1959359,
+      "sha256": "91fc9d633e724898919e9c8df01e7a8c65858fb84739d4dfff5ced3bccf89db8",
+      "kind": "image"
+    },
+    {
+      "path": "artifacts/deliverables/webtoon-pages/page-12.png",
+      "bytes": 1929716,
+      "sha256": "e1e557e29149cb5a11f3c37a0159036e260e6504b80a84ba40090efddd98d208",
+      "kind": "image"
+    },
+    {
+      "path": "artifacts/delivery.json",
+      "bytes": 134767,
+      "sha256": "a7ba80ea3a43941ca73ba0792c1c592141e27ffd542f7fd8539fde9e3ed89c89",
+      "kind": "text"
+    },
+    {
+      "path": "artifacts/format-review.json",
+      "bytes": 41310,
+      "sha256": "a290ed2d870a23aaaf97d9f082b2d530cf4b4ac0752fa638e9e4de08d34d547c",
+      "kind": "text"
+    },
+    {
+      "path": "artifacts/generation-state.json",
+      "bytes": 131775,
+      "sha256": "77f71b7fb5bdcdd54f4d28f3b36366dbba32a62da62115b761d7b927c9827070",
+      "kind": "text"
+    },
+    {
+      "path": "artifacts/pages/japanese-manga/page-01.png",
+      "bytes": 1821837,
+      "sha256": "8625d3486a16f6da96996214367104fa66d2493a480b166463c50245a368fb85",
+      "kind": "image"
+    },
+    {
+      "path": "artifacts/pages/japanese-manga/page-02.png",
+      "bytes": 2003045,
+      "sha256": "607420cbabf37e4a0a4f85dab0899a0179bb03c31f678031d98d106d31a027e7",
+      "kind": "image"
+    },
+    {
+      "path": "artifacts/pages/japanese-manga/page-03.png",
+      "bytes": 1906369,
+      "sha256": "d3a9121f70ae8811e227efb4dab640bb90375f2cb4bc0c3f1be0f8b37f0ec588",
+      "kind": "image"
+    },
+    {
+      "path": "artifacts/pages/japanese-manga/page-04.png",
+      "bytes": 2086451,
+      "sha256": "ee1ca894cbb103e1622e291e7e8a5df8665d30451c1f6cf9ad069cd835e99e9c",
+      "kind": "image"
+    },
+    {
+      "path": "artifacts/pages/vertical-webtoon/the-skybridge-signal-webtoon.png",
+      "bytes": 34897431,
+      "sha256": "55152d588943283d77cc6b3f8939d54ee20c44e8cd593d9c011140adbc70c029",
+      "kind": "image"
+    },
+    {
+      "path": "artifacts/pages/western-comic/page-01.png",
+      "bytes": 4702477,
+      "sha256": "a947557d3fb5b9d473a3e16f775df474e3491ee994299b294c0a3c6a6b56402a",
+      "kind": "image"
+    },
+    {
+      "path": "artifacts/pages/western-comic/page-02.png",
+      "bytes": 4877342,
+      "sha256": "9b17a89183eb1d2709281c92a14d58b1291ea14a933d7b32ae6a461a77ad1ae2",
+      "kind": "image"
+    },
+    {
+      "path": "artifacts/pages/western-comic/page-03.png",
+      "bytes": 4556116,
+      "sha256": "f000a8760622d497f283dd2ca79b1934053a56c425d1823b17654fada779d22b",
+      "kind": "image"
+    },
+    {
+      "path": "artifacts/pages/western-comic/page-04.png",
+      "bytes": 4778888,
+      "sha256": "347b10815cbc5d87455f93ebcb3624d692609f7ee727dc8b292049b5a4bc8c2a",
+      "kind": "image"
+    },
+    {
+      "path": "artifacts/raw-panels/japanese-manga/beat-01.png",
+      "bytes": 5469250,
+      "sha256": "0c9f58edbe7aca710e029555bfaf8b961db3087a96197c798b34cf1caccace15",
+      "kind": "image"
+    },
+    {
+      "path": "artifacts/raw-panels/japanese-manga/beat-02.png",
+      "bytes": 6005443,
+      "sha256": "9ae34fc235cb4ee1616a1d435e8c6ec9cea1d07575ab386ef8b79b4b6e670be7",
+      "kind": "image"
+    },
+    {
+      "path": "artifacts/raw-panels/japanese-manga/beat-03.png",
+      "bytes": 4722982,
+      "sha256": "b4f4230c941b5218c20d3fa43ffa5f4f058803987741792206e660fcd646064b",
+      "kind": "image"
+    },
+    {
+      "path": "artifacts/raw-panels/japanese-manga/beat-04.png",
+      "bytes": 6420512,
+      "sha256": "252f8e947af6ed0eefbc8f1c3fab3002e1c78280d6a21096241a74544eb3963b",
+      "kind": "image"
+    },
+    {
+      "path": "artifacts/raw-panels/japanese-manga/beat-05.png",
+      "bytes": 6154546,
+      "sha256": "80463c8b7746478874a1356209bfad696b9fcdb32816c0e2b735e06ac53630c3",
+      "kind": "image"
+    },
+    {
+      "path": "artifacts/raw-panels/japanese-manga/beat-06.png",
+      "bytes": 6065724,
+      "sha256": "1dba952de40be2d5517d3c48c1a67443550e5cb4a780504fd2d7d6837d2b1f88",
+      "kind": "image"
+    },
+    {
+      "path": "artifacts/raw-panels/japanese-manga/beat-07.png",
+      "bytes": 2936248,
+      "sha256": "bd090aa33ee84169dccc2273fc1f696663b26e131815846561f1a1f73f4ac25f",
+      "kind": "image"
+    },
+    {
+      "path": "artifacts/raw-panels/japanese-manga/beat-08.png",
+      "bytes": 5114877,
+      "sha256": "bcebddd0f043721e079ca33dd4470795128b0f638c866f7dc880d22a259b2538",
+      "kind": "image"
+    },
+    {
+      "path": "artifacts/raw-panels/japanese-manga/beat-09.png",
+      "bytes": 8690371,
+      "sha256": "211098fc31596ff55b2c4096835ffe251eba94f8ae9881c5fc32f9c10998772f",
+      "kind": "image"
+    },
+    {
+      "path": "artifacts/raw-panels/japanese-manga/beat-10.png",
+      "bytes": 7054463,
+      "sha256": "ef5d70e448394b5712f8af2df2c87a0e837bf38c41af50b4a8cef1e736692d72",
+      "kind": "image"
+    },
+    {
+      "path": "artifacts/raw-panels/japanese-manga/beat-11.png",
+      "bytes": 4908899,
+      "sha256": "43f76d09ed7a603e3aa050e871959501c97d6216055f5f4b698d7593b1d8ac8a",
+      "kind": "image"
+    },
+    {
+      "path": "artifacts/raw-panels/japanese-manga/beat-12.png",
+      "bytes": 7538443,
+      "sha256": "869dcf63526693302f50f89ec7c9869deaa3ce7dbad67fcc9ce4fdc0e61ea16e",
+      "kind": "image"
+    },
+    {
+      "path": "artifacts/raw-panels/vertical-webtoon/beat-01.png",
+      "bytes": 7214099,
+      "sha256": "6a8659d38a95c351a1a8dd86c6659e236910727924913896713098a3fb01017d",
+      "kind": "image"
+    },
+    {
+      "path": "artifacts/raw-panels/vertical-webtoon/beat-02.png",
+      "bytes": 6745397,
+      "sha256": "a2363c5ddb36ee9072d7a0e86929e333d9e6a12a8aeade145917d3a5758d802d",
+      "kind": "image"
+    },
+    {
+      "path": "artifacts/raw-panels/vertical-webtoon/beat-03.png",
+      "bytes": 6162926,
+      "sha256": "47bd7b614f2e76c9d61559876bbb889dfd30cc104522846000039db2bd3e2caa",
+      "kind": "image"
+    },
+    {
+      "path": "artifacts/raw-panels/vertical-webtoon/beat-04.png",
+      "bytes": 6670657,
+      "sha256": "21c740177feafa3fc0323281ebc4c9d3d2db122fabf1a46d41f4f5db2f35d69f",
+      "kind": "image"
+    },
+    {
+      "path": "artifacts/raw-panels/vertical-webtoon/beat-05.png",
+      "bytes": 8082278,
+      "sha256": "9140868cb49a4d684296f1d4a5cb581ab6df650c882e3b7827acc5dd20e38252",
+      "kind": "image"
+    },
+    {
+      "path": "artifacts/raw-panels/vertical-webtoon/beat-06.png",
+      "bytes": 7972311,
+      "sha256": "29f32f75e10e99c5e47595e65ad476aeced49323022026677faa4aba66abc804",
+      "kind": "image"
+    },
+    {
+      "path": "artifacts/raw-panels/vertical-webtoon/beat-07.png",
+      "bytes": 7263844,
+      "sha256": "2efc3257a886ecfa5f9729e327a71af9d2bcc9f1d802379f72b7127f1e7e32ef",
+      "kind": "image"
+    },
+    {
+      "path": "artifacts/raw-panels/vertical-webtoon/beat-08.png",
+      "bytes": 7281312,
+      "sha256": "3e6be68b4150fcd757a096081a9b17a40fd8f77008ceceafa3e3f906643cf1d3",
+      "kind": "image"
+    },
+    {
+      "path": "artifacts/raw-panels/vertical-webtoon/beat-09.png",
+      "bytes": 7523455,
+      "sha256": "dd27d24e495144bad3806a19939009f720bf2329b767ce83c371057a06495310",
+      "kind": "image"
+    },
+    {
+      "path": "artifacts/raw-panels/vertical-webtoon/beat-10.png",
+      "bytes": 8506308,
+      "sha256": "d1c953d60de20d4389d6c84198006ad39ba20381c9b3894394610707f82e9e62",
+      "kind": "image"
+    },
+    {
+      "path": "artifacts/raw-panels/vertical-webtoon/beat-11.png",
+      "bytes": 6415399,
+      "sha256": "33ef9b1fb1a901ba781bbba54f9544a0fbb6de479fbb29aa1e0d4fde0714e2a1",
+      "kind": "image"
+    },
+    {
+      "path": "artifacts/raw-panels/vertical-webtoon/beat-12.png",
+      "bytes": 6887702,
+      "sha256": "4ec485fd5e32c81f63aa498e116e568262e3fc5e0ee1ab72f7350b2c411159c1",
+      "kind": "image"
+    },
+    {
+      "path": "artifacts/raw-panels/western-comic/beat-01.png",
+      "bytes": 8208573,
+      "sha256": "b34f178a033b5d0e755ce4086635a7802acfcd6e2bb47b9c5b641b1693c039b8",
+      "kind": "image"
+    },
+    {
+      "path": "artifacts/raw-panels/western-comic/beat-02.png",
+      "bytes": 6728041,
+      "sha256": "5aaee6946f28c18d3f5eb863c18e9071c616107075194b51ccf3546f9fad82d8",
+      "kind": "image"
+    },
+    {
+      "path": "artifacts/raw-panels/western-comic/beat-03.png",
+      "bytes": 7384780,
+      "sha256": "6919f5cf36477bcd9979c8d757323660d0a5b8d07ee5d52e6268878ae9e1778e",
+      "kind": "image"
+    },
+    {
+      "path": "artifacts/raw-panels/western-comic/beat-04.png",
+      "bytes": 6547458,
+      "sha256": "8f6bee2600b7c5c1ad274589cae8a4c534381cabe87efccc561b14da11920d2c",
+      "kind": "image"
+    },
+    {
+      "path": "artifacts/raw-panels/western-comic/beat-05.png",
+      "bytes": 8491554,
+      "sha256": "8604d87d1f06da581e3397ae30f2e71f5af3c214ae9422e9ba6f08e3636cb1d7",
+      "kind": "image"
+    },
+    {
+      "path": "artifacts/raw-panels/western-comic/beat-06.png",
+      "bytes": 8648031,
+      "sha256": "47ca012fd79180359221f6bef0beb0ed6c24ac29803d5cc2141ffffd803a6770",
+      "kind": "image"
+    },
+    {
+      "path": "artifacts/raw-panels/western-comic/beat-07.png",
+      "bytes": 6568867,
+      "sha256": "a8b63b9afc780a323fffe871d2080cb082457251bc8e4d0943062e34f97b1c53",
+      "kind": "image"
+    },
+    {
+      "path": "artifacts/raw-panels/western-comic/beat-08.png",
+      "bytes": 8552328,
+      "sha256": "20d80b457fa83d4d39af08e7c3255969904aafea036934ff06e0f7e8e677ba08",
+      "kind": "image"
+    },
+    {
+      "path": "artifacts/raw-panels/western-comic/beat-09.png",
+      "bytes": 6742388,
+      "sha256": "b63d33beb1f1f246dc20820da5490617587086c86fde2d2a4a393f5d86a4bcb4",
+      "kind": "image"
+    },
+    {
+      "path": "artifacts/raw-panels/western-comic/beat-10.png",
+      "bytes": 7745510,
+      "sha256": "24727d50f046c68b18aa0d2de02e081a03fd050340d5f8594bc3871b091f9d09",
+      "kind": "image"
+    },
+    {
+      "path": "artifacts/raw-panels/western-comic/beat-11.png",
+      "bytes": 7869165,
+      "sha256": "580cdd3f36939c5274c8b8ea502dba3fbdb3e14b10e00a2aaa1bc961dc867d94",
+      "kind": "image"
+    },
+    {
+      "path": "artifacts/raw-panels/western-comic/beat-12.png",
+      "bytes": 6877086,
+      "sha256": "b57850250226d771cabc2fd26f352c03b13d7c9324a988488fa3dbe9290ede2e",
+      "kind": "image"
+    },
+    {
+      "path": "artifacts/revisions/reference-jun-park-before-1.png",
+      "bytes": 2822103,
+      "sha256": "19738dddec9fb298c297e549a272754d5063bfbbf955962e9077ce63fbbd2fa4",
+      "kind": "image"
+    },
+    {
+      "path": "artifacts/revisions/reference-kai-okafor-before-1.png",
+      "bytes": 5109028,
+      "sha256": "7b4bb78886e3f0489937fb43d6bea780baeb70fdda6cf3211e5e697c4ccbac47",
+      "kind": "image"
+    },
+    {
+      "path": "artifacts/revisions/reference-lina-chen-before-1.png",
+      "bytes": 3993282,
+      "sha256": "22a6372c77d386069252861c37ca9dc56ad64ae355493d60f0e141e705eba0de",
+      "kind": "image"
+    },
+    {
+      "path": "artifacts/revisions/reference-mara-velez-before-1.png",
+      "bytes": 2869659,
+      "sha256": "22fb9d45ff0c7425967761d9d2420dc35be42f2aed5381e23f1d22b92d354af6",
+      "kind": "image"
+    },
+    {
+      "path": "artifacts/three-format-beat-comparison.png",
+      "bytes": 7987990,
+      "sha256": "2d27a19724a646876d560c2dceba3787c3f19103b19c0c019ea9ae4f252ac3b4",
+      "kind": "image"
+    },
+    {
+      "path": "brief.md",
+      "bytes": 1421,
+      "sha256": "a5bb622479222bc87932e1f8639ecc59a075c41eadb5353dc284d26dfbb98400",
+      "kind": "text"
+    },
+    {
+      "path": "evidence.json",
+      "bytes": 22607,
+      "sha256": "8b0e234e65cfc359ba29e1a060ee5fffeb82463a41a01e3a7da2d5f1cb461f55",
+      "kind": "text"
+    },
+    {
+      "path": "generation-plan.json",
+      "bytes": 1120,
+      "sha256": "302f9d21f7cebd4a7c4aa1aad94bf3131a6d5cc143b93bfc306edf9e69a90bcc",
+      "kind": "text"
+    },
+    {
+      "path": "input/character-bible.json",
+      "bytes": 3397,
+      "sha256": "0ff5359ed9d4f8e1c762e216052688ec711cfde2146e57e807d23016ceb48ad5",
+      "kind": "text"
+    },
+    {
+      "path": "input/format-plan.json",
+      "bytes": 5818,
+      "sha256": "073ec6a7f0e81c8eed97865b50ca0214980daee8f16a3d625a4f427158f41159",
+      "kind": "text"
+    },
+    {
+      "path": "input/review-adjudication.json",
+      "bytes": 3655,
+      "sha256": "3d19c0198c8dda7469f293e2aa43cc6bc8e0a1b1b930555592715ca94b7b9183",
+      "kind": "text"
+    },
+    {
+      "path": "input/source.md",
+      "bytes": 5945,
+      "sha256": "941f86040726047470f9235d8461300732c241db5942c627173a089769b09eca",
+      "kind": "text"
+    },
+    {
+      "path": "integration-review.json",
+      "bytes": 5944,
+      "sha256": "66df24c9421e1f1b4014cd84f5030279918b8c7b3e3c92b029dd08c6eaeae71a",
+      "kind": "text"
+    },
+    {
+      "path": "page-draft.md",
+      "bytes": 787,
+      "sha256": "7b38e4d615f297f2c7af4343fb0f036ddb9e49955ff76e781d54a26f57d63d33",
+      "kind": "text"
+    },
+    {
+      "path": "public-package/asset-manifest.json",
+      "bytes": 8714,
+      "sha256": "59adf49cc1a98c72b82f02d2642ea5ca0f1bf032f45546aeb1d279657e026879",
+      "kind": "text"
+    },
+    {
+      "path": "public-package/character-bible.json",
+      "bytes": 3397,
+      "sha256": "0ff5359ed9d4f8e1c762e216052688ec711cfde2146e57e807d23016ceb48ad5",
+      "kind": "text"
+    },
+    {
+      "path": "public-package/character-references/jun-park.png",
+      "bytes": 2924511,
+      "sha256": "f2a0d94e50b5fa32df5dc55ec04ac2e1928cbfd27ba94efb34f932426031b9f3",
+      "kind": "image"
+    },
+    {
+      "path": "public-package/character-references/kai-okafor.png",
+      "bytes": 3269552,
+      "sha256": "f32b8e07acc0a8151ef968b4e546e658fb7d737a1c69f76f5b0d997b7ed287fe",
+      "kind": "image"
+    },
+    {
+      "path": "public-package/character-references/lina-chen.png",
+      "bytes": 2641327,
+      "sha256": "06d287e63f722a0e0b57683c524c4421c3270ec66421f0d10e2002ee1e5c09f3",
+      "kind": "image"
+    },
+    {
+      "path": "public-package/character-references/mara-velez.png",
+      "bytes": 3034334,
+      "sha256": "c9a2f9fd57c1bddebc71875c16a7e0413d080d1ed2f6a1f2cb4e7ce601bc8d85",
+      "kind": "image"
+    },
+    {
+      "path": "public-package/character-registry.png",
+      "bytes": 1778418,
+      "sha256": "6f8832d2fcc96761a3426254b8c5a9d2ee204eeb14f790f74c8b9cdc532cbede",
+      "kind": "image"
+    },
+    {
+      "path": "public-package/format-plan.json",
+      "bytes": 5818,
+      "sha256": "073ec6a7f0e81c8eed97865b50ca0214980daee8f16a3d625a4f427158f41159",
+      "kind": "text"
+    },
+    {
+      "path": "public-package/japanese-manga/pages/page-01.png",
+      "bytes": 1821837,
+      "sha256": "8625d3486a16f6da96996214367104fa66d2493a480b166463c50245a368fb85",
+      "kind": "image"
+    },
+    {
+      "path": "public-package/japanese-manga/pages/page-02.png",
+      "bytes": 2003045,
+      "sha256": "607420cbabf37e4a0a4f85dab0899a0179bb03c31f678031d98d106d31a027e7",
+      "kind": "image"
+    },
+    {
+      "path": "public-package/japanese-manga/pages/page-03.png",
+      "bytes": 1906369,
+      "sha256": "d3a9121f70ae8811e227efb4dab640bb90375f2cb4bc0c3f1be0f8b37f0ec588",
+      "kind": "image"
+    },
+    {
+      "path": "public-package/japanese-manga/pages/page-04.png",
+      "bytes": 2086451,
+      "sha256": "ee1ca894cbb103e1622e291e7e8a5df8665d30451c1f6cf9ad069cd835e99e9c",
+      "kind": "image"
+    },
+    {
+      "path": "public-package/japanese-manga/the-skybridge-signal-japanese-manga.cbz",
+      "bytes": 7711619,
+      "sha256": "fd8496e93c367efbb40e8a3dd2cc0ae11b5521fda0f7ec0bb5d4bb6474702fa3",
+      "kind": "other"
+    },
+    {
+      "path": "public-package/japanese-manga/the-skybridge-signal-japanese-manga.pdf",
+      "bytes": 11021536,
+      "sha256": "cf709915120517a9360ccee09737f7ca89e94eb67df7febd10a434bcd364a128",
+      "kind": "other"
+    },
+    {
+      "path": "public-package/quality-review.json",
+      "bytes": 2714,
+      "sha256": "8cef9fd011f6c65bd9a831df370ea57acf626dd013d6733f39e371571540c374",
+      "kind": "text"
+    },
+    {
+      "path": "public-package/rejected-reference-attempts/reference-jun-park-before-1.png",
+      "bytes": 2822103,
+      "sha256": "19738dddec9fb298c297e549a272754d5063bfbbf955962e9077ce63fbbd2fa4",
+      "kind": "image"
+    },
+    {
+      "path": "public-package/rejected-reference-attempts/reference-kai-okafor-before-1.png",
+      "bytes": 5109028,
+      "sha256": "7b4bb78886e3f0489937fb43d6bea780baeb70fdda6cf3211e5e697c4ccbac47",
+      "kind": "image"
+    },
+    {
+      "path": "public-package/rejected-reference-attempts/reference-lina-chen-before-1.png",
+      "bytes": 3993282,
+      "sha256": "22a6372c77d386069252861c37ca9dc56ad64ae355493d60f0e141e705eba0de",
+      "kind": "image"
+    },
+    {
+      "path": "public-package/rejected-reference-attempts/reference-mara-velez-before-1.png",
+      "bytes": 2869659,
+      "sha256": "22fb9d45ff0c7425967761d9d2420dc35be42f2aed5381e23f1d22b92d354af6",
+      "kind": "image"
+    },
+    {
+      "path": "public-package/review-adjudication.json",
+      "bytes": 3655,
+      "sha256": "3d19c0198c8dda7469f293e2aa43cc6bc8e0a1b1b930555592715ca94b7b9183",
+      "kind": "text"
+    },
+    {
+      "path": "public-package/run-summary.json",
+      "bytes": 5086,
+      "sha256": "f7ef2bb9aa7931d032b4fe057f4b0cf9eb6c683e92bf9ce88753a3cb1a48a5cd",
+      "kind": "text"
+    },
+    {
+      "path": "public-package/source.md",
+      "bytes": 5945,
+      "sha256": "941f86040726047470f9235d8461300732c241db5942c627173a089769b09eca",
+      "kind": "text"
+    },
+    {
+      "path": "public-package/three-format-beat-comparison.png",
+      "bytes": 7987990,
+      "sha256": "2d27a19724a646876d560c2dceba3787c3f19103b19c0c019ea9ae4f252ac3b4",
+      "kind": "image"
+    },
+    {
+      "path": "public-package/vertical-webtoon/pages/page-01.png",
+      "bytes": 2144289,
+      "sha256": "b004ac172df01a61700e75f4c6bcbe0704b0281bc8d63163a7adf7cdda20fbf0",
+      "kind": "image"
+    },
+    {
+      "path": "public-package/vertical-webtoon/pages/page-02.png",
+      "bytes": 1966034,
+      "sha256": "84f828cd7cd9c8793d64d533a40a800eecc63ba9237ad8d116b8dbfa7090d10a",
+      "kind": "image"
+    },
+    {
+      "path": "public-package/vertical-webtoon/pages/page-03.png",
+      "bytes": 1757197,
+      "sha256": "6bd4b5bb847eeab6d9351fe2b3769bce9ca7f22c453b33a4aa42ab59731adff8",
+      "kind": "image"
+    },
+    {
+      "path": "public-package/vertical-webtoon/pages/page-04.png",
+      "bytes": 1893643,
+      "sha256": "20570370458a2985b8f3080563fc03c785a7c6388d81759e2d99e5846412b561",
+      "kind": "image"
+    },
+    {
+      "path": "public-package/vertical-webtoon/pages/page-05.png",
+      "bytes": 2362020,
+      "sha256": "9e873f8ef4fa2366e1b5ca54d04da7f5f318333a155597dcade255f7798fb7af",
+      "kind": "image"
+    },
+    {
+      "path": "public-package/vertical-webtoon/pages/page-06.png",
+      "bytes": 2338057,
+      "sha256": "6e94fdb6ab05c4d79e55c25471079246984045e5729877615e66ed66cae759ac",
+      "kind": "image"
+    },
+    {
+      "path": "public-package/vertical-webtoon/pages/page-07.png",
+      "bytes": 2049339,
+      "sha256": "e7e97e2b72c2d864c35bfaa3854d6c9eb665605498342c8a0c5ff20caeed58e6",
+      "kind": "image"
+    },
+    {
+      "path": "public-package/vertical-webtoon/pages/page-08.png",
+      "bytes": 2097905,
+      "sha256": "f622306b09796422868fa059d7c30936641c4701e3de76d366f06479d00e86e7",
+      "kind": "image"
+    },
+    {
+      "path": "public-package/vertical-webtoon/pages/page-09.png",
+      "bytes": 2022996,
+      "sha256": "50d69f349e3899d4702ab141fa39f3330868f83b058dc55edefdd4ddeefcb2af",
+      "kind": "image"
+    },
+    {
+      "path": "public-package/vertical-webtoon/pages/page-10.png",
+      "bytes": 2350222,
+      "sha256": "5a966cc57bbe4411f297eb9ea9f630ea41b4eb962118642a9c2b45aa909afd03",
+      "kind": "image"
+    },
+    {
+      "path": "public-package/vertical-webtoon/pages/page-11.png",
+      "bytes": 1959359,
+      "sha256": "91fc9d633e724898919e9c8df01e7a8c65858fb84739d4dfff5ced3bccf89db8",
+      "kind": "image"
+    },
+    {
+      "path": "public-package/vertical-webtoon/pages/page-12.png",
+      "bytes": 1929716,
+      "sha256": "e1e557e29149cb5a11f3c37a0159036e260e6504b80a84ba40090efddd98d208",
+      "kind": "image"
+    },
+    {
+      "path": "public-package/vertical-webtoon/the-skybridge-signal-vertical-webtoon.cbz",
+      "bytes": 24840849,
+      "sha256": "89c4646fd66c1ec9a1392b8b9dbfae9a149cc5a87a5638c2c881c5f704556365",
+      "kind": "other"
+    },
+    {
+      "path": "public-package/vertical-webtoon/the-skybridge-signal-vertical-webtoon.pdf",
+      "bytes": 40757464,
+      "sha256": "562927c54e350df77543ac08523a797a29aa476311e6e586ec80072d27d35f92",
+      "kind": "other"
+    },
+    {
+      "path": "public-package/vertical-webtoon/the-skybridge-signal-webtoon.png",
+      "bytes": 34897431,
+      "sha256": "55152d588943283d77cc6b3f8939d54ee20c44e8cd593d9c011140adbc70c029",
+      "kind": "image"
+    },
+    {
+      "path": "public-package/western-comic/pages/page-01.png",
+      "bytes": 4702477,
+      "sha256": "a947557d3fb5b9d473a3e16f775df474e3491ee994299b294c0a3c6a6b56402a",
+      "kind": "image"
+    },
+    {
+      "path": "public-package/western-comic/pages/page-02.png",
+      "bytes": 4877342,
+      "sha256": "9b17a89183eb1d2709281c92a14d58b1291ea14a933d7b32ae6a461a77ad1ae2",
+      "kind": "image"
+    },
+    {
+      "path": "public-package/western-comic/pages/page-03.png",
+      "bytes": 4556116,
+      "sha256": "f000a8760622d497f283dd2ca79b1934053a56c425d1823b17654fada779d22b",
+      "kind": "image"
+    },
+    {
+      "path": "public-package/western-comic/pages/page-04.png",
+      "bytes": 4778888,
+      "sha256": "347b10815cbc5d87455f93ebcb3624d692609f7ee727dc8b292049b5a4bc8c2a",
+      "kind": "image"
+    },
+    {
+      "path": "public-package/western-comic/the-skybridge-signal-western-comic.cbz",
+      "bytes": 18850595,
+      "sha256": "0eaf5b5b58dc748a1ffd774397cbcf1dd37b39c96ff2ef8b0ece057af4ddb1a8",
+      "kind": "other"
+    },
+    {
+      "path": "public-package/western-comic/the-skybridge-signal-western-comic.pdf",
+      "bytes": 22304386,
+      "sha256": "487a4e7027d3638489030dbeaa733ef0666be6c41bec423b066e9d48be20460e",
+      "kind": "other"
+    },
+    {
+      "path": "quality-review.json",
+      "bytes": 2714,
+      "sha256": "8cef9fd011f6c65bd9a831df370ea57acf626dd013d6733f39e371571540c374",
+      "kind": "text"
+    },
+    {
+      "path": "tmp/pdfs/manga/page-1.png",
+      "bytes": 172615,
+      "sha256": "c480393a92cdc46aa1274bd22448cc383e8212d9ded90919604d23e566d6fe94",
+      "kind": "image"
+    },
+    {
+      "path": "tmp/pdfs/manga/page-2.png",
+      "bytes": 184248,
+      "sha256": "8f33c4eef356130dd2d321c323a81bba3bbf9e9c8c4d3e4dec0d66a5a2f675f8",
+      "kind": "image"
+    },
+    {
+      "path": "tmp/pdfs/manga/page-3.png",
+      "bytes": 169472,
+      "sha256": "6aac8d81668e8a199da4874a3b71f0b0a3e8cf5f285914c9ecb761cc3250c86d",
+      "kind": "image"
+    },
+    {
+      "path": "tmp/pdfs/manga/page-4.png",
+      "bytes": 176465,
+      "sha256": "8c058a050995af7e8c22390ac122e1061e3051f60ff588278107fdd5f4baf657",
+      "kind": "image"
+    },
+    {
+      "path": "tmp/pdfs/webtoon/page-01.png",
+      "bytes": 158460,
+      "sha256": "bc40367817e4299dffed7220b9ef3d1a90ecd08d9c49c8d31f69f0ddebfca0b8",
+      "kind": "image"
+    },
+    {
+      "path": "tmp/pdfs/webtoon/page-02.png",
+      "bytes": 146649,
+      "sha256": "3016d4143ff0e62c7e657304a399a3948c43826074f3c929a2ef8d51dcc109e5",
+      "kind": "image"
+    },
+    {
+      "path": "tmp/pdfs/webtoon/page-03.png",
+      "bytes": 124304,
+      "sha256": "63bd203aad6f41a2a7b8c276e0085f973e176250dcd332f8667425c28084a7c4",
+      "kind": "image"
+    },
+    {
+      "path": "tmp/pdfs/webtoon/page-04.png",
+      "bytes": 132254,
+      "sha256": "fff9d48d16541da940a31f11db726681695c0c39b7922425ebf9fe0be39b9439",
+      "kind": "image"
+    },
+    {
+      "path": "tmp/pdfs/webtoon/page-05.png",
+      "bytes": 158167,
+      "sha256": "c7f32a6d842afe84b107a585448334494ce3eacef8c0b76a755caffbe0bb4b3c",
+      "kind": "image"
+    },
+    {
+      "path": "tmp/pdfs/webtoon/page-06.png",
+      "bytes": 162082,
+      "sha256": "0579999a14234bb3a61674644cedf0ca6f201b69c95e73da4c0e73068d29423b",
+      "kind": "image"
+    },
+    {
+      "path": "tmp/pdfs/webtoon/page-07.png",
+      "bytes": 141377,
+      "sha256": "ef8a85ffcd61f46d5565ccc7836bead2db5d2a3885d94cd3a8bc3276dbba5ff6",
+      "kind": "image"
+    },
+    {
+      "path": "tmp/pdfs/webtoon/page-08.png",
+      "bytes": 150054,
+      "sha256": "0fedb7181cfe641667da0b8e20fb00e0d47d7e4437d67e5904131d2e7d3b52ee",
+      "kind": "image"
+    },
+    {
+      "path": "tmp/pdfs/webtoon/page-09.png",
+      "bytes": 136786,
+      "sha256": "c95426ca1000eac58f849cd74996f783d852e21b8450c3fcc2240d70d2e329b9",
+      "kind": "image"
+    },
+    {
+      "path": "tmp/pdfs/webtoon/page-10.png",
+      "bytes": 155649,
+      "sha256": "2bf86cdea7580b4af31e8ebfe603fd986ce1b5bd5543af3a37ed3769623297f8",
+      "kind": "image"
+    },
+    {
+      "path": "tmp/pdfs/webtoon/page-11.png",
+      "bytes": 138235,
+      "sha256": "06deade431d6d6d4c90f8cda92653251dc6f17c55efb5d65c859e9d406408c6c",
+      "kind": "image"
+    },
+    {
+      "path": "tmp/pdfs/webtoon/page-12.png",
+      "bytes": 142385,
+      "sha256": "072008690055e5e0351e80d8f6405d5a2dba6d9de50d46aa26cc546928680343",
+      "kind": "image"
+    },
+    {
+      "path": "tmp/pdfs/western/page-1.png",
+      "bytes": 271961,
+      "sha256": "7e22897f14ccc31a4e526b53a354a6dd111d390b3e0e1f54680c32dda245eb7b",
+      "kind": "image"
+    },
+    {
+      "path": "tmp/pdfs/western/page-2.png",
+      "bytes": 271438,
+      "sha256": "8c9d7d071237a4845435d9b7351887d7972a5a3e8804b16ef9af3238b8d20836",
+      "kind": "image"
+    },
+    {
+      "path": "tmp/pdfs/western/page-3.png",
+      "bytes": 251336,
+      "sha256": "174b53de978567100fa94a501fc34f9e0e8ddf643cb326b1f488f41f22233efe",
+      "kind": "image"
+    },
+    {
+      "path": "tmp/pdfs/western/page-4.png",
+      "bytes": 265910,
+      "sha256": "e28159e453c41c1b2e27722e6c27d923ace8b67dc22ba0b804db4a0ec832d8c8",
+      "kind": "image"
+    }
+  ]
+}

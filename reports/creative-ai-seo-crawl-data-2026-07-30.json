@@ -1,0 +1,2238 @@
+{
+  "generatedAt": "2026-07-30T01:14:34.940Z",
+  "startedAt": "2026-07-30T01:14:13.752Z",
+  "methodology": {
+    "userAgent": "Mozilla/5.0 (compatible; LlamaGenSEOResearchBot/1.0; +https://llamagen.ai/)",
+    "maxSitemapsPerSite": 40,
+    "maxSitemapUrlsPerSite": 20000,
+    "note": "Public, unauthenticated crawl of homepage, robots.txt, sitemap files, llms.txt, and ai.txt. Homepage outbound links are not inbound backlink data."
+  },
+  "results": [
+    {
+      "name": "LlamaGen",
+      "requestedHomepage": "https://llamagen.ai/",
+      "homepage": {
+        "status": 200,
+        "finalUrl": "https://llamagen.ai/",
+        "title": "Free AI Comic Generator: Create Stunning Comics with AI",
+        "description": "LlamaGen is the ultimate free AI comic platform. Create stunning comics, webtoons, manhwa, and manga with perfect character consistency using simple text prompts, characters, images, or videos. Turn your ideas into high-quality, professional stories in seconds — no drawing skills needed.",
+        "canonical": "https://llamagen.ai",
+        "h1s": [
+          "AI Comic Generator Unlimited AI Comics"
+        ],
+        "h1Count": 1,
+        "jsonLdTypes": [
+          "Brand",
+          "ContactPoint",
+          "Offer",
+          "Organization",
+          "Person",
+          "SoftwareApplication",
+          "SpeakableSpecification",
+          "WebSite"
+        ],
+        "internalLinkCount": 153,
+        "uniqueInternalLinkCount": 117,
+        "externalLinkCount": 16,
+        "externalHosts": [
+          "blackforestlabs.ai",
+          "comflowy.com",
+          "elevenlabs.io",
+          "help.llamagen.ai",
+          "kusa.pics",
+          "llama.meta.com",
+          "llamagen.lemonsqueezy.com",
+          "llamagen.openstatus.dev",
+          "omniaudio.info",
+          "openai.com",
+          "replicate.com",
+          "shotdeck.com",
+          "www.g2.com",
+          "www.puppyagent.com",
+          "www.youtube.com",
+          "x.com"
+        ]
+      },
+      "robots": {
+        "url": "https://llamagen.ai/robots.txt",
+        "status": 200,
+        "sitemapDirectives": [
+          "https://llamagen.ai/sitemap.xml"
+        ]
+      },
+      "sitemap": {
+        "discoveredSitemaps": [
+          {
+            "url": "https://llamagen.ai/sitemap.xml",
+            "status": 200,
+            "finalUrl": "https://llamagen.ai/sitemap.xml",
+            "locCount": 3
+          },
+          {
+            "url": "https://llamagen.ai/sitemap_index.xml",
+            "status": 404,
+            "finalUrl": "https://llamagen.ai/sitemap_index.xml",
+            "locCount": 0
+          },
+          {
+            "url": "https://llamagen.ai/sitemap-0.xml",
+            "status": 200,
+            "finalUrl": "https://llamagen.ai/sitemap-0.xml",
+            "locCount": 5000
+          },
+          {
+            "url": "https://llamagen.ai/sitemap-1.xml",
+            "status": 200,
+            "finalUrl": "https://llamagen.ai/sitemap-1.xml",
+            "locCount": 5000
+          },
+          {
+            "url": "https://llamagen.ai/sitemap-2.xml",
+            "status": 200,
+            "finalUrl": "https://llamagen.ai/sitemap-2.xml",
+            "locCount": 3130
+          }
+        ],
+        "urlCount": 13130,
+        "truncated": false,
+        "pageFamilies": [
+          {
+            "family": "/features",
+            "count": 2438
+          },
+          {
+            "family": "/blogs",
+            "count": 1386
+          },
+          {
+            "family": "/childrens-books",
+            "count": 1368
+          },
+          {
+            "family": "/vs",
+            "count": 1224
+          },
+          {
+            "family": "/p",
+            "count": 505
+          },
+          {
+            "family": "/style",
+            "count": 386
+          },
+          {
+            "family": "/storyteller",
+            "count": 384
+          },
+          {
+            "family": "/ai-video-generator",
+            "count": 320
+          },
+          {
+            "family": "/bible-comic-maker",
+            "count": 312
+          },
+          {
+            "family": "/articles",
+            "count": 312
+          },
+          {
+            "family": "/comic-generators",
+            "count": 288
+          },
+          {
+            "family": "/tools",
+            "count": 169
+          },
+          {
+            "family": "/animation-api",
+            "count": 168
+          },
+          {
+            "family": "/solutions",
+            "count": 145
+          },
+          {
+            "family": "/webtoon",
+            "count": 124
+          },
+          {
+            "family": "/comic-api",
+            "count": 121
+          },
+          {
+            "family": "/use-cases",
+            "count": 96
+          },
+          {
+            "family": "/video",
+            "count": 96
+          },
+          {
+            "family": "/ai-marketing-tools",
+            "count": 93
+          },
+          {
+            "family": "/pricing",
+            "count": 48
+          }
+        ],
+        "locales": [
+          {
+            "locale": "es",
+            "count": 519
+          },
+          {
+            "locale": "fr",
+            "count": 519
+          },
+          {
+            "locale": "it",
+            "count": 519
+          },
+          {
+            "locale": "ja",
+            "count": 519
+          },
+          {
+            "locale": "ko",
+            "count": 519
+          },
+          {
+            "locale": "de",
+            "count": 518
+          },
+          {
+            "locale": "zh-cn",
+            "count": 518
+          },
+          {
+            "locale": "zh-tw",
+            "count": 518
+          },
+          {
+            "locale": "ar",
+            "count": 514
+          },
+          {
+            "locale": "ru",
+            "count": 513
+          },
+          {
+            "locale": "tr",
+            "count": 513
+          },
+          {
+            "locale": "pl",
+            "count": 513
+          },
+          {
+            "locale": "nl",
+            "count": 513
+          },
+          {
+            "locale": "th",
+            "count": 513
+          },
+          {
+            "locale": "da",
+            "count": 512
+          },
+          {
+            "locale": "id",
+            "count": 506
+          },
+          {
+            "locale": "pt",
+            "count": 501
+          },
+          {
+            "locale": "en-au",
+            "count": 415
+          },
+          {
+            "locale": "en-ca",
+            "count": 415
+          },
+          {
+            "locale": "en-gb",
+            "count": 415
+          },
+          {
+            "locale": "en-in",
+            "count": 415
+          },
+          {
+            "locale": "el",
+            "count": 415
+          },
+          {
+            "locale": "nb",
+            "count": 415
+          }
+        ],
+        "samples": [
+          "https://llamagen.ai/comic-api/llms.txt",
+          "https://llamagen.ai/ar/features/ai-comic-factory",
+          "https://llamagen.ai/de/features/ai-comic-factory",
+          "https://llamagen.ai/en-au/features/ai-comic-factory",
+          "https://llamagen.ai/en-ca/features/ai-comic-factory",
+          "https://llamagen.ai/en-gb/features/ai-comic-factory",
+          "https://llamagen.ai/en-in/features/ai-comic-factory",
+          "https://llamagen.ai/es/features/ai-comic-factory",
+          "https://llamagen.ai/fr/features/ai-comic-factory",
+          "https://llamagen.ai/it/features/ai-comic-factory",
+          "https://llamagen.ai/ja/features/ai-comic-factory",
+          "https://llamagen.ai/ko/features/ai-comic-factory",
+          "https://llamagen.ai/pt/features/ai-comic-factory",
+          "https://llamagen.ai/zh-cn/features/ai-comic-factory",
+          "https://llamagen.ai/zh-tw/features/ai-comic-factory",
+          "https://llamagen.ai/features/ai-layer-splitter",
+          "https://llamagen.ai/ar/features/ai-comic-generator",
+          "https://llamagen.ai/de/features/ai-comic-generator",
+          "https://llamagen.ai/en-au/features/ai-comic-generator",
+          "https://llamagen.ai/en-ca/features/ai-comic-generator"
+        ]
+      },
+      "aiDiscovery": {
+        "llmsTxtStatus": 200,
+        "llmsTxtBytes": 9283,
+        "aiTxtStatus": 404,
+        "aiTxtBytes": 261494
+      }
+    },
+    {
+      "name": "Produce.so",
+      "requestedHomepage": "https://produce.so/",
+      "homepage": {
+        "status": 200,
+        "finalUrl": "https://produce.so/",
+        "title": "Produce.so",
+        "description": "The AI-powered engine for high-authority, ultra-long-form YouTube content creation, now exclusively integrated within the elite Blake Ryan mentorship program.",
+        "canonical": "https://produce.so",
+        "h1s": [
+          "Produce.so"
+        ],
+        "h1Count": 1,
+        "jsonLdTypes": [
+          "Organization",
+          "WebSite"
+        ],
+        "internalLinkCount": 4,
+        "uniqueInternalLinkCount": 4,
+        "externalLinkCount": 0,
+        "externalHosts": []
+      },
+      "robots": {
+        "url": "https://produce.so/robots.txt",
+        "status": 200,
+        "sitemapDirectives": [
+          "https://produce.so/sitemap.xml"
+        ]
+      },
+      "sitemap": {
+        "discoveredSitemaps": [
+          {
+            "url": "https://produce.so/sitemap.xml",
+            "status": 200,
+            "finalUrl": "https://produce.so/sitemap.xml",
+            "locCount": 5
+          },
+          {
+            "url": "https://produce.so/sitemap_index.xml",
+            "status": 200,
+            "finalUrl": "https://produce.so/sitemap_index.xml",
+            "locCount": 0
+          }
+        ],
+        "urlCount": 5,
+        "truncated": false,
+        "pageFamilies": [
+          {
+            "family": "/",
+            "count": 1
+          },
+          {
+            "family": "/pricing",
+            "count": 1
+          },
+          {
+            "family": "/examples",
+            "count": 1
+          },
+          {
+            "family": "/faqs",
+            "count": 1
+          },
+          {
+            "family": "/playbook",
+            "count": 1
+          }
+        ],
+        "locales": [],
+        "samples": [
+          "https://produce.so/",
+          "https://produce.so/pricing",
+          "https://produce.so/examples",
+          "https://produce.so/faqs",
+          "https://produce.so/playbook"
+        ]
+      },
+      "aiDiscovery": {
+        "llmsTxtStatus": 200,
+        "llmsTxtBytes": 442,
+        "aiTxtStatus": 200,
+        "aiTxtBytes": 5492
+      }
+    },
+    {
+      "name": "Videotok",
+      "requestedHomepage": "https://videotok.app/",
+      "homepage": {
+        "status": 200,
+        "finalUrl": "https://www.videotok.app/",
+        "title": "AI Video Generator for Faceless Content & Ads | Videotok",
+        "description": "Create faceless videos, product images, UGC and video ads with AI. Turn a topic, script, link, audio file or product into editable content.",
+        "canonical": "https://www.videotok.app",
+        "h1s": [
+          "Create faceless videos, images and ads with AI"
+        ],
+        "h1Count": 1,
+        "jsonLdTypes": [
+          "Organization",
+          "PostalAddress",
+          "WebApplication",
+          "WebSite"
+        ],
+        "internalLinkCount": 55,
+        "uniqueInternalLinkCount": 43,
+        "externalLinkCount": 32,
+        "externalHosts": [
+          "",
+          "discord.gg",
+          "instagram.com",
+          "videotok.notion.site",
+          "whoiselijah.com.au",
+          "www.barkibu.com",
+          "www.birkholz-perfumes.com",
+          "www.bosch.com",
+          "www.desigual.com",
+          "www.linkedin.com",
+          "www.mondadori.it",
+          "www.youtube.com",
+          "x.com"
+        ]
+      },
+      "robots": {
+        "url": "https://www.videotok.app/robots.txt",
+        "status": 200,
+        "sitemapDirectives": [
+          "https://www.videotok.app/sitemap.xml"
+        ]
+      },
+      "sitemap": {
+        "discoveredSitemaps": [
+          {
+            "url": "https://www.videotok.app/sitemap.xml",
+            "status": 200,
+            "finalUrl": "https://www.videotok.app/sitemap.xml",
+            "locCount": 354
+          },
+          {
+            "url": "https://www.videotok.app/sitemap_index.xml",
+            "status": 404,
+            "finalUrl": "https://www.videotok.app/sitemap_index.xml",
+            "locCount": 0
+          }
+        ],
+        "urlCount": 354,
+        "truncated": false,
+        "pageFamilies": [
+          {
+            "family": "/compare",
+            "count": 132
+          },
+          {
+            "family": "/free-tools",
+            "count": 38
+          },
+          {
+            "family": "/blog",
+            "count": 36
+          },
+          {
+            "family": "/guides",
+            "count": 15
+          },
+          {
+            "family": "/use-cases",
+            "count": 15
+          },
+          {
+            "family": "/features",
+            "count": 14
+          },
+          {
+            "family": "/ai-avatars",
+            "count": 5
+          },
+          {
+            "family": "/ai-models",
+            "count": 5
+          },
+          {
+            "family": "/brand",
+            "count": 5
+          },
+          {
+            "family": "/caption-generator",
+            "count": 5
+          },
+          {
+            "family": "/faq",
+            "count": 5
+          },
+          {
+            "family": "/hook-generator",
+            "count": 5
+          },
+          {
+            "family": "/image-prompt",
+            "count": 5
+          },
+          {
+            "family": "/image-to-prompt",
+            "count": 5
+          },
+          {
+            "family": "/ltd",
+            "count": 5
+          },
+          {
+            "family": "/pricing",
+            "count": 5
+          },
+          {
+            "family": "/remove-bg",
+            "count": 5
+          },
+          {
+            "family": "/text-to-video",
+            "count": 5
+          },
+          {
+            "family": "/ugc-rate-calculator",
+            "count": 5
+          },
+          {
+            "family": "/video-compressor",
+            "count": 5
+          }
+        ],
+        "locales": [
+          {
+            "locale": "es",
+            "count": 47
+          },
+          {
+            "locale": "fr",
+            "count": 47
+          },
+          {
+            "locale": "de",
+            "count": 47
+          },
+          {
+            "locale": "it",
+            "count": 44
+          }
+        ],
+        "samples": [
+          "https://www.videotok.app/",
+          "https://www.videotok.app/ai-animation",
+          "https://www.videotok.app/ai-avatars",
+          "https://www.videotok.app/es/ai-avatars",
+          "https://www.videotok.app/fr/ai-avatars",
+          "https://www.videotok.app/de/ai-avatars",
+          "https://www.videotok.app/it/ai-avatars",
+          "https://www.videotok.app/ai-images-stock",
+          "https://www.videotok.app/ai-models",
+          "https://www.videotok.app/es/ai-models",
+          "https://www.videotok.app/fr/ai-models",
+          "https://www.videotok.app/de/ai-models",
+          "https://www.videotok.app/it/ai-models",
+          "https://www.videotok.app/ai-video",
+          "https://www.videotok.app/ai-youtube-generator",
+          "https://www.videotok.app/audio-to-video",
+          "https://www.videotok.app/blog",
+          "https://www.videotok.app/es/blog",
+          "https://www.videotok.app/fr/blog",
+          "https://www.videotok.app/de/blog"
+        ]
+      },
+      "aiDiscovery": {
+        "llmsTxtStatus": 200,
+        "llmsTxtBytes": 3352,
+        "aiTxtStatus": 404,
+        "aiTxtBytes": 59934
+      }
+    },
+    {
+      "name": "Aura AI",
+      "requestedHomepage": "https://auraai.app/",
+      "homepage": {
+        "status": 200,
+        "finalUrl": "https://auraai.app/",
+        "title": "Aura AI — All the Best AI Video & Image Models in One Platform",
+        "description": "Access 20+ AI video and image models from Google, OpenAI, xAI, ByteDance, and more. Generate videos with Veo 3.1, Sora 2, Kling O3, and images with FLUX, Imagen 4, GPT Image — all in one platform. No watermark, HD quality.",
+        "canonical": "https://auraai.app",
+        "h1s": [
+          "Every top AI model. One click away."
+        ],
+        "h1Count": 1,
+        "jsonLdTypes": [
+          "AggregateRating",
+          "BreadcrumbList",
+          "ImageObject",
+          "ItemList",
+          "ListItem",
+          "Offer",
+          "Organization",
+          "PriceSpecification",
+          "SiteNavigationElement",
+          "SoftwareApplication",
+          "WebSite"
+        ],
+        "internalLinkCount": 129,
+        "uniqueInternalLinkCount": 57,
+        "externalLinkCount": 6,
+        "externalHosts": [
+          "aura-ai.tolt.io",
+          "codexqr.com",
+          "editee.app",
+          "instagram.com",
+          "repostpro.app",
+          "twitter.com"
+        ]
+      },
+      "robots": {
+        "url": "https://auraai.app/robots.txt",
+        "status": 200,
+        "sitemapDirectives": [
+          "https://auraai.app/sitemap.xml"
+        ]
+      },
+      "sitemap": {
+        "discoveredSitemaps": [
+          {
+            "url": "https://auraai.app/sitemap.xml",
+            "status": 200,
+            "finalUrl": "https://auraai.app/sitemap.xml",
+            "locCount": 121
+          },
+          {
+            "url": "https://auraai.app/sitemap_index.xml",
+            "status": 200,
+            "finalUrl": "https://auraai.app/sitemap_index.xml",
+            "locCount": 0
+          }
+        ],
+        "urlCount": 120,
+        "truncated": false,
+        "pageFamilies": [
+          {
+            "family": "/blog",
+            "count": 54
+          },
+          {
+            "family": "/models",
+            "count": 18
+          },
+          {
+            "family": "/animate",
+            "count": 8
+          },
+          {
+            "family": "/compare",
+            "count": 6
+          },
+          {
+            "family": "/vs",
+            "count": 5
+          },
+          {
+            "family": "/ai-video-editor",
+            "count": 5
+          },
+          {
+            "family": "/",
+            "count": 1
+          },
+          {
+            "family": "/aigc-studio",
+            "count": 1
+          },
+          {
+            "family": "/blog-post-to-video",
+            "count": 1
+          },
+          {
+            "family": "/mcp",
+            "count": 1
+          },
+          {
+            "family": "/image-to-video",
+            "count": 1
+          },
+          {
+            "family": "/ai-video-inspiration-hub",
+            "count": 1
+          },
+          {
+            "family": "/ai-video-loop-generator",
+            "count": 1
+          },
+          {
+            "family": "/anime-image-to-video",
+            "count": 1
+          },
+          {
+            "family": "/ai-video-generator-no-watermark",
+            "count": 1
+          },
+          {
+            "family": "/ai-image-and-video-generator-for-android",
+            "count": 1
+          },
+          {
+            "family": "/ai-image-and-video-generator-for-ios-iphone-ipad-macos",
+            "count": 1
+          },
+          {
+            "family": "/download",
+            "count": 1
+          },
+          {
+            "family": "/aura-ai-chto-eto-takoe",
+            "count": 1
+          },
+          {
+            "family": "/ai-speech-long-videos-arabic-2025",
+            "count": 1
+          }
+        ],
+        "locales": [
+          {
+            "locale": "ru",
+            "count": 1
+          },
+          {
+            "locale": "ar",
+            "count": 1
+          }
+        ],
+        "samples": [
+          "https://auraai.app/",
+          "https://auraai.app/animate",
+          "https://auraai.app/aigc-studio",
+          "https://auraai.app/blog-post-to-video",
+          "https://auraai.app/mcp",
+          "https://auraai.app/image-to-video",
+          "https://auraai.app/ai-video-inspiration-hub",
+          "https://auraai.app/ai-video-loop-generator",
+          "https://auraai.app/anime-image-to-video",
+          "https://auraai.app/ai-video-generator-no-watermark",
+          "https://auraai.app/models/veo-2",
+          "https://auraai.app/models/openai-sora-2",
+          "https://auraai.app/models/kling",
+          "https://auraai.app/models/luma-dream-machine",
+          "https://auraai.app/ai-image-and-video-generator-for-android",
+          "https://auraai.app/ai-image-and-video-generator-for-ios-iphone-ipad-macos",
+          "https://auraai.app/download",
+          "https://auraai.app/blog",
+          "https://auraai.app/blog/page/2",
+          "https://auraai.app/blog/page/3"
+        ]
+      },
+      "aiDiscovery": {
+        "llmsTxtStatus": 200,
+        "llmsTxtBytes": 18242,
+        "aiTxtStatus": 200,
+        "aiTxtBytes": 18242
+      }
+    },
+    {
+      "name": "AI Designer",
+      "requestedHomepage": "https://www.aidesigner.ai/",
+      "homepage": {
+        "status": 200,
+        "finalUrl": "https://www.aidesigner.ai/",
+        "title": "AIDesigner | AI Designer for UI, Brands & Visual Assets",
+        "description": "The all-in-one AI design platform. Create website UI, mobile app screens, logos, brand kits, images, and marketing graphics with AI. Start free.",
+        "canonical": "https://www.aidesigner.ai",
+        "h1s": [
+          "Design anything."
+        ],
+        "h1Count": 1,
+        "jsonLdTypes": [
+          "Answer",
+          "EntryPoint",
+          "FAQPage",
+          "Offer",
+          "Organization",
+          "Question",
+          "SearchAction",
+          "SoftwareApplication",
+          "WebSite"
+        ],
+        "internalLinkCount": 65,
+        "uniqueInternalLinkCount": 30,
+        "externalLinkCount": 66,
+        "externalHosts": [
+          "auraplusplus.com",
+          "discord.gg",
+          "dofollow.tools",
+          "findly.tools",
+          "goodaitools.com",
+          "launchigniter.com",
+          "rankinpublic.xyz",
+          "showmebest.ai",
+          "startupfa.me",
+          "tinylaunch.com",
+          "twelve.tools",
+          "www.producthunt.com",
+          "www.reddit.com",
+          "x.com"
+        ]
+      },
+      "robots": {
+        "url": "https://www.aidesigner.ai/robots.txt",
+        "status": 200,
+        "sitemapDirectives": [
+          "https://www.aidesigner.ai/sitemap.xml"
+        ]
+      },
+      "sitemap": {
+        "discoveredSitemaps": [
+          {
+            "url": "https://www.aidesigner.ai/sitemap.xml",
+            "status": 200,
+            "finalUrl": "https://www.aidesigner.ai/sitemap.xml",
+            "locCount": 86
+          },
+          {
+            "url": "https://www.aidesigner.ai/sitemap_index.xml",
+            "status": 404,
+            "finalUrl": "https://www.aidesigner.ai/sitemap_index.xml",
+            "locCount": 0
+          }
+        ],
+        "urlCount": 86,
+        "truncated": false,
+        "pageFamilies": [
+          {
+            "family": "/blog",
+            "count": 45
+          },
+          {
+            "family": "/templates",
+            "count": 21
+          },
+          {
+            "family": "/docs",
+            "count": 2
+          },
+          {
+            "family": "/",
+            "count": 1
+          },
+          {
+            "family": "/pricing",
+            "count": 1
+          },
+          {
+            "family": "/backgrounds",
+            "count": 1
+          },
+          {
+            "family": "/privacy",
+            "count": 1
+          },
+          {
+            "family": "/terms",
+            "count": 1
+          },
+          {
+            "family": "/affiliate-program",
+            "count": 1
+          },
+          {
+            "family": "/ai-design-generator",
+            "count": 1
+          },
+          {
+            "family": "/ai-ui-designer",
+            "count": 1
+          },
+          {
+            "family": "/ai-landing-page-builder",
+            "count": 1
+          },
+          {
+            "family": "/ai-website-design-generator",
+            "count": 1
+          },
+          {
+            "family": "/ai-mobile-app-designer",
+            "count": 1
+          },
+          {
+            "family": "/brand-kit-generator",
+            "count": 1
+          },
+          {
+            "family": "/ai-prototype-generator",
+            "count": 1
+          },
+          {
+            "family": "/website-redesign",
+            "count": 1
+          },
+          {
+            "family": "/image-to-html",
+            "count": 1
+          },
+          {
+            "family": "/website-cloner",
+            "count": 1
+          },
+          {
+            "family": "/ascii-generator",
+            "count": 1
+          }
+        ],
+        "locales": [],
+        "samples": [
+          "https://www.aidesigner.ai/",
+          "https://www.aidesigner.ai/blog",
+          "https://www.aidesigner.ai/pricing",
+          "https://www.aidesigner.ai/templates",
+          "https://www.aidesigner.ai/backgrounds",
+          "https://www.aidesigner.ai/privacy",
+          "https://www.aidesigner.ai/terms",
+          "https://www.aidesigner.ai/affiliate-program",
+          "https://www.aidesigner.ai/ai-design-generator",
+          "https://www.aidesigner.ai/ai-ui-designer",
+          "https://www.aidesigner.ai/ai-landing-page-builder",
+          "https://www.aidesigner.ai/ai-website-design-generator",
+          "https://www.aidesigner.ai/ai-mobile-app-designer",
+          "https://www.aidesigner.ai/brand-kit-generator",
+          "https://www.aidesigner.ai/ai-prototype-generator",
+          "https://www.aidesigner.ai/website-redesign",
+          "https://www.aidesigner.ai/image-to-html",
+          "https://www.aidesigner.ai/website-cloner",
+          "https://www.aidesigner.ai/ascii-generator",
+          "https://www.aidesigner.ai/ai-ui-design-mcp"
+        ]
+      },
+      "aiDiscovery": {
+        "llmsTxtStatus": 200,
+        "llmsTxtBytes": 4254,
+        "aiTxtStatus": 404,
+        "aiTxtBytes": 61001
+      }
+    },
+    {
+      "name": "Make Design",
+      "requestedHomepage": "https://make.design/",
+      "homepage": {
+        "status": 200,
+        "finalUrl": "https://make.design/",
+        "title": "make.design - AI Design Generator",
+        "description": "Turn a prompt into polished website designs, app mockups, graphics, and marketing visuals in seconds with make.design.",
+        "canonical": "https://make.design",
+        "h1s": [
+          "Make Design"
+        ],
+        "h1Count": 1,
+        "jsonLdTypes": [
+          "Answer",
+          "BreadcrumbList",
+          "FAQPage",
+          "ImageObject",
+          "ListItem",
+          "Offer",
+          "Organization",
+          "Question",
+          "SearchAction",
+          "SoftwareApplication",
+          "WebSite"
+        ],
+        "internalLinkCount": 26,
+        "uniqueInternalLinkCount": 22,
+        "externalLinkCount": 2,
+        "externalHosts": [
+          "www.youtube.com",
+          "x.com"
+        ]
+      },
+      "robots": {
+        "url": "https://make.design/robots.txt",
+        "status": 200,
+        "sitemapDirectives": [
+          "https://make.design/sitemap_index.xml"
+        ]
+      },
+      "sitemap": {
+        "discoveredSitemaps": [
+          {
+            "url": "https://make.design/sitemap_index.xml",
+            "status": 200,
+            "finalUrl": "https://make.design/sitemap_index.xml",
+            "locCount": 2
+          },
+          {
+            "url": "https://make.design/sitemap.xml",
+            "status": 404,
+            "finalUrl": "https://make.design/sitemap.xml",
+            "locCount": 0
+          },
+          {
+            "url": "https://make.design/sitemap/pages.xml",
+            "status": 200,
+            "finalUrl": "https://make.design/sitemap/pages.xml",
+            "locCount": 439
+          },
+          {
+            "url": "https://make.design/sitemap/showcases-0.xml",
+            "status": 200,
+            "finalUrl": "https://make.design/sitemap/showcases-0.xml",
+            "locCount": 186
+          }
+        ],
+        "urlCount": 625,
+        "truncated": false,
+        "pageFamilies": [
+          {
+            "family": "/compare",
+            "count": 301
+          },
+          {
+            "family": "/showcases",
+            "count": 253
+          },
+          {
+            "family": "/alternatives",
+            "count": 26
+          },
+          {
+            "family": "/tools",
+            "count": 19
+          },
+          {
+            "family": "/blog",
+            "count": 11
+          },
+          {
+            "family": "/best",
+            "count": 8
+          },
+          {
+            "family": "/",
+            "count": 1
+          },
+          {
+            "family": "/pricing",
+            "count": 1
+          },
+          {
+            "family": "/gift",
+            "count": 1
+          },
+          {
+            "family": "/privacy-policy",
+            "count": 1
+          },
+          {
+            "family": "/terms-of-service",
+            "count": 1
+          },
+          {
+            "family": "/cookie-policy",
+            "count": 1
+          },
+          {
+            "family": "/acceptable-use",
+            "count": 1
+          }
+        ],
+        "locales": [],
+        "samples": [
+          "https://make.design/",
+          "https://make.design/pricing",
+          "https://make.design/showcases",
+          "https://make.design/tools",
+          "https://make.design/blog",
+          "https://make.design/alternatives",
+          "https://make.design/compare",
+          "https://make.design/best",
+          "https://make.design/gift",
+          "https://make.design/privacy-policy",
+          "https://make.design/terms-of-service",
+          "https://make.design/cookie-policy",
+          "https://make.design/acceptable-use",
+          "https://make.design/showcases/web-design",
+          "https://make.design/showcases/marketing",
+          "https://make.design/showcases/app-design",
+          "https://make.design/showcases/graphic-design",
+          "https://make.design/showcases/image",
+          "https://make.design/tools/ai-website-generator",
+          "https://make.design/tools/ai-landing-page-generator"
+        ]
+      },
+      "aiDiscovery": {
+        "llmsTxtStatus": 404,
+        "llmsTxtBytes": 20085,
+        "aiTxtStatus": 404,
+        "aiTxtBytes": 20085
+      }
+    },
+    {
+      "name": "Laper",
+      "requestedHomepage": "https://laper.ai/",
+      "homepage": {
+        "status": 200,
+        "finalUrl": "https://laper.ai/",
+        "title": "Free AI Screenwriting Software & AI Script Writer | Laper",
+        "description": "Laper is free AI screenwriting software and an AI script writer with automatic screenplay formatting, structured AI tools, collaboration, and story planning.",
+        "canonical": "https://laper.ai/",
+        "h1s": [
+          "AI Screenwriting Software, Without the AI Aftertaste. Advancing film and television production worldwide through intelligent technology. AI Screenwriting Software, Without the AI Aftertaste. Advancing film and television production worldwide through intelligent technology."
+        ],
+        "h1Count": 1,
+        "jsonLdTypes": [
+          "Answer",
+          "BreadcrumbList",
+          "ContactPoint",
+          "FAQPage",
+          "ImageObject",
+          "ItemList",
+          "ListItem",
+          "Offer",
+          "Organization",
+          "Question",
+          "SoftwareApplication",
+          "WebSite"
+        ],
+        "internalLinkCount": 77,
+        "uniqueInternalLinkCount": 34,
+        "externalLinkCount": 6,
+        "externalHosts": [
+          "discord.gg",
+          "loro.dev",
+          "mastra.ai",
+          "www.anthropic.com",
+          "x.com",
+          "xhslink.com"
+        ]
+      },
+      "robots": {
+        "url": "https://laper.ai/robots.txt",
+        "status": 200,
+        "sitemapDirectives": [
+          "https://laper.ai/sitemap.xml"
+        ]
+      },
+      "sitemap": {
+        "discoveredSitemaps": [
+          {
+            "url": "https://laper.ai/sitemap.xml",
+            "status": 200,
+            "finalUrl": "https://laper.ai/sitemap.xml",
+            "locCount": 155
+          },
+          {
+            "url": "https://laper.ai/sitemap_index.xml",
+            "status": 200,
+            "finalUrl": "https://laper.ai/sitemap_index.xml",
+            "locCount": 0
+          }
+        ],
+        "urlCount": 155,
+        "truncated": false,
+        "pageFamilies": [
+          {
+            "family": "/screenplays",
+            "count": 54
+          },
+          {
+            "family": "/docs",
+            "count": 34
+          },
+          {
+            "family": "/blog",
+            "count": 23
+          },
+          {
+            "family": "/features",
+            "count": 12
+          },
+          {
+            "family": "/recent-highlights",
+            "count": 12
+          },
+          {
+            "family": "/changelog",
+            "count": 7
+          },
+          {
+            "family": "/alternatives",
+            "count": 6
+          },
+          {
+            "family": "/authors",
+            "count": 2
+          },
+          {
+            "family": "/",
+            "count": 1
+          },
+          {
+            "family": "/screenplay-editor",
+            "count": 1
+          },
+          {
+            "family": "/pricing",
+            "count": 1
+          },
+          {
+            "family": "/llms.txt",
+            "count": 1
+          },
+          {
+            "family": "/llms-full.txt",
+            "count": 1
+          }
+        ],
+        "locales": [],
+        "samples": [
+          "https://laper.ai/",
+          "https://laper.ai/screenplay-editor/",
+          "https://laper.ai/pricing/",
+          "https://laper.ai/blog/",
+          "https://laper.ai/features/",
+          "https://laper.ai/changelog/",
+          "https://laper.ai/recent-highlights/",
+          "https://laper.ai/screenplays/",
+          "https://laper.ai/llms.txt",
+          "https://laper.ai/llms-full.txt",
+          "https://laper.ai/screenplays/titanic/",
+          "https://laper.ai/screenplays/the-godfather/",
+          "https://laper.ai/screenplays/the-shawshank-redemption/",
+          "https://laper.ai/screenplays/pulp-fiction/",
+          "https://laper.ai/screenplays/forrest-gump/",
+          "https://laper.ai/screenplays/inception/",
+          "https://laper.ai/screenplays/interstellar/",
+          "https://laper.ai/screenplays/the-truman-show/",
+          "https://laper.ai/screenplays/good-will-hunting/",
+          "https://laper.ai/screenplays/casablanca/"
+        ]
+      },
+      "aiDiscovery": {
+        "llmsTxtStatus": 200,
+        "llmsTxtBytes": 4941,
+        "aiTxtStatus": 200,
+        "aiTxtBytes": 957344
+      }
+    },
+    {
+      "name": "ComicsAI",
+      "requestedHomepage": "https://comicsai.org/",
+      "homepage": {
+        "status": 200,
+        "finalUrl": "https://www.comicsai.org/",
+        "title": "ComicsAI - AI Comic Generator for Manga, Webtoons & Stories",
+        "description": "Create manga, webtoons, and visual stories with an AI comic generator built for creators. Turn text into panels, keep characters consistent, and publish faster.",
+        "canonical": "https://www.comicsai.org/en",
+        "h1s": [
+          "AI Comic Generator for Manga, Webtoon & Comic Panels"
+        ],
+        "h1Count": 1,
+        "jsonLdTypes": [
+          "Answer",
+          "FAQPage",
+          "Offer",
+          "Organization",
+          "Question",
+          "SoftwareApplication",
+          "WebSite"
+        ],
+        "internalLinkCount": 107,
+        "uniqueInternalLinkCount": 83,
+        "externalLinkCount": 2,
+        "externalHosts": [
+          "discord.gg",
+          "twitter.com"
+        ]
+      },
+      "robots": {
+        "url": "https://www.comicsai.org/robots.txt",
+        "status": 200,
+        "sitemapDirectives": [
+          "https://www.comicsai.org/sitemap-index.xml"
+        ]
+      },
+      "sitemap": {
+        "discoveredSitemaps": [
+          {
+            "url": "https://www.comicsai.org/sitemap-index.xml",
+            "status": 200,
+            "finalUrl": "https://www.comicsai.org/sitemap-index.xml",
+            "locCount": 2
+          },
+          {
+            "url": "https://www.comicsai.org/sitemap.xml",
+            "status": 200,
+            "finalUrl": "https://www.comicsai.org/sitemap.xml",
+            "locCount": 2256
+          },
+          {
+            "url": "https://www.comicsai.org/sitemap_index.xml",
+            "status": 404,
+            "finalUrl": "https://www.comicsai.org/en/sitemap_index.xml",
+            "locCount": 0
+          },
+          {
+            "url": "https://www.comicsai.org/sitemap-blog.xml",
+            "status": 200,
+            "finalUrl": "https://www.comicsai.org/sitemap-blog.xml",
+            "locCount": 384
+          }
+        ],
+        "urlCount": 2640,
+        "truncated": false,
+        "pageFamilies": [
+          {
+            "family": "/style",
+            "count": 560
+          },
+          {
+            "family": "/blog",
+            "count": 400
+          },
+          {
+            "family": "/model",
+            "count": 256
+          },
+          {
+            "family": "/format",
+            "count": 240
+          },
+          {
+            "family": "/image-tool-dashboard",
+            "count": 101
+          },
+          {
+            "family": "/manga-tool-dashboard",
+            "count": 86
+          },
+          {
+            "family": "/comic-tool-dashboard",
+            "count": 84
+          },
+          {
+            "family": "/story-tool-dashboard",
+            "count": 67
+          },
+          {
+            "family": "/character-tool-dashboard",
+            "count": 54
+          },
+          {
+            "family": "/editor-tool-dashboard",
+            "count": 21
+          },
+          {
+            "family": "/webtoon-tool-dashboard",
+            "count": 19
+          },
+          {
+            "family": "/try-free",
+            "count": 16
+          },
+          {
+            "family": "/tools",
+            "count": 16
+          },
+          {
+            "family": "/ai-manga-free",
+            "count": 16
+          },
+          {
+            "family": "/manga-ai",
+            "count": 16
+          },
+          {
+            "family": "/ai-comic-factory",
+            "count": 16
+          },
+          {
+            "family": "/ai-comics-generator",
+            "count": 16
+          },
+          {
+            "family": "/styles",
+            "count": 16
+          },
+          {
+            "family": "/cases",
+            "count": 16
+          },
+          {
+            "family": "/gallery",
+            "count": 16
+          }
+        ],
+        "locales": [
+          {
+            "locale": "en",
+            "count": 225
+          },
+          {
+            "locale": "ja",
+            "count": 161
+          },
+          {
+            "locale": "ko",
+            "count": 161
+          },
+          {
+            "locale": "es",
+            "count": 161
+          },
+          {
+            "locale": "fr",
+            "count": 161
+          },
+          {
+            "locale": "de",
+            "count": 161
+          },
+          {
+            "locale": "it",
+            "count": 161
+          },
+          {
+            "locale": "pt",
+            "count": 161
+          },
+          {
+            "locale": "ru",
+            "count": 161
+          },
+          {
+            "locale": "ar",
+            "count": 161
+          },
+          {
+            "locale": "hi",
+            "count": 161
+          },
+          {
+            "locale": "vi",
+            "count": 161
+          },
+          {
+            "locale": "th",
+            "count": 161
+          },
+          {
+            "locale": "id",
+            "count": 161
+          },
+          {
+            "locale": "zh-tw",
+            "count": 161
+          },
+          {
+            "locale": "zh",
+            "count": 161
+          }
+        ],
+        "samples": [
+          "https://www.comicsai.org/en",
+          "https://www.comicsai.org/en/try-free",
+          "https://www.comicsai.org/en/tools",
+          "https://www.comicsai.org/en/ai-manga-free",
+          "https://www.comicsai.org/en/manga-ai",
+          "https://www.comicsai.org/en/ai-comic-factory",
+          "https://www.comicsai.org/en/ai-comics-generator",
+          "https://www.comicsai.org/en/styles",
+          "https://www.comicsai.org/en/cases",
+          "https://www.comicsai.org/en/gallery",
+          "https://www.comicsai.org/en/comics-ai-video",
+          "https://www.comicsai.org/en/story-mode",
+          "https://www.comicsai.org/en/blog",
+          "https://www.comicsai.org/en/about",
+          "https://www.comicsai.org/en/contact",
+          "https://www.comicsai.org/en/price",
+          "https://www.comicsai.org/en/affiliate",
+          "https://www.comicsai.org/en/links",
+          "https://www.comicsai.org/en/waitlist",
+          "https://www.comicsai.org/en/privacy"
+        ]
+      },
+      "aiDiscovery": {
+        "llmsTxtStatus": 200,
+        "llmsTxtBytes": 2995,
+        "aiTxtStatus": 200,
+        "aiTxtBytes": 1677
+      }
+    },
+    {
+      "name": "Vid.AI",
+      "requestedHomepage": "https://vid.ai/",
+      "homepage": {
+        "status": 200,
+        "finalUrl": "https://vid.ai/",
+        "title": null,
+        "description": null,
+        "canonical": null,
+        "h1s": [],
+        "h1Count": 0,
+        "jsonLdTypes": [],
+        "internalLinkCount": 0,
+        "uniqueInternalLinkCount": 0,
+        "externalLinkCount": 0,
+        "externalHosts": []
+      },
+      "robots": {
+        "url": "https://vid.ai/robots.txt",
+        "status": 200,
+        "sitemapDirectives": [
+          "https://vid.ai/sitemap.xml"
+        ]
+      },
+      "sitemap": {
+        "discoveredSitemaps": [
+          {
+            "url": "https://vid.ai/sitemap.xml",
+            "status": 200,
+            "finalUrl": "https://vid.ai/sitemap.xml",
+            "locCount": 11
+          },
+          {
+            "url": "https://vid.ai/sitemap_index.xml",
+            "status": 404,
+            "finalUrl": "https://vid.ai/sitemap_index.xml",
+            "locCount": 0
+          }
+        ],
+        "urlCount": 11,
+        "truncated": false,
+        "pageFamilies": [
+          {
+            "family": "/tools",
+            "count": 3
+          },
+          {
+            "family": "/",
+            "count": 1
+          },
+          {
+            "family": "/pricing",
+            "count": 1
+          },
+          {
+            "family": "/auth",
+            "count": 1
+          },
+          {
+            "family": "/contact",
+            "count": 1
+          },
+          {
+            "family": "/privacy-policy",
+            "count": 1
+          },
+          {
+            "family": "/terms-and-conditions",
+            "count": 1
+          },
+          {
+            "family": "/licence",
+            "count": 1
+          },
+          {
+            "family": "/changelog",
+            "count": 1
+          }
+        ],
+        "locales": [],
+        "samples": [
+          "https://vid.ai/",
+          "https://vid.ai/pricing",
+          "https://vid.ai/auth/login",
+          "https://vid.ai/contact",
+          "https://vid.ai/privacy-policy",
+          "https://vid.ai/terms-and-conditions",
+          "https://vid.ai/licence",
+          "https://vid.ai/changelog",
+          "https://vid.ai/tools/faceless-shorts",
+          "https://vid.ai/tools/faceless-video",
+          "https://vid.ai/tools/split-screen"
+        ]
+      },
+      "aiDiscovery": {
+        "llmsTxtStatus": 404,
+        "llmsTxtBytes": 3389,
+        "aiTxtStatus": 404,
+        "aiTxtBytes": 3389
+      }
+    },
+    {
+      "name": "GojiberryAI",
+      "requestedHomepage": "https://gojiberry.ai/",
+      "homepage": {
+        "status": 200,
+        "finalUrl": "https://gojiberry.ai/",
+        "title": "Gojiberry AI - Grow your sales with warm leads & high intent outreach",
+        "description": "Gojiberry AI detects warm leads from 15+ buying and social signals, filters them by your ICP, and runs personalized outreach to book qualified demos automatically.",
+        "canonical": "https://gojiberry.ai/",
+        "h1s": [
+          "Your Al agent finds high intent leads and contacts them for you.",
+          "Your sales agent runs 24/7 . And gets better every week.",
+          "Your sales agent runs 24/7 . And gets better every week.",
+          "3 minutes to set up. First results today.",
+          "3 minutes to set up. First results today.",
+          "Built to run your entire outreach.",
+          "Built to run your entire outreach.",
+          "One agent. Replaces your entire outreach stack.",
+          "One agent. Replaces your entire outreach stack.",
+          "2,000 teams stopped manual prospecting. Their Agents run outbound for them."
+        ],
+        "h1Count": 16,
+        "jsonLdTypes": [],
+        "internalLinkCount": 26,
+        "uniqueInternalLinkCount": 10,
+        "externalLinkCount": 24,
+        "externalHosts": [
+          "app.gojiberry.ai",
+          "calendly.com",
+          "status.gojiberry.ai",
+          "www.producthunt.com",
+          "www.ycombinator.com",
+          "x.com"
+        ]
+      },
+      "robots": {
+        "url": "https://gojiberry.ai/robots.txt",
+        "status": 200,
+        "sitemapDirectives": [
+          "https://gojiberry.ai/sitemap.xml"
+        ]
+      },
+      "sitemap": {
+        "discoveredSitemaps": [
+          {
+            "url": "https://gojiberry.ai/sitemap.xml",
+            "status": 200,
+            "finalUrl": "https://gojiberry.ai/sitemap.xml",
+            "locCount": 2
+          },
+          {
+            "url": "https://gojiberry.ai/sitemap_index.xml",
+            "status": 404,
+            "finalUrl": "https://gojiberry.ai/sitemap_index.xml",
+            "locCount": 0
+          },
+          {
+            "url": "https://gojiberry.ai/sitemap_en.xml",
+            "status": 200,
+            "finalUrl": "https://gojiberry.ai/sitemap_en.xml",
+            "locCount": 27
+          },
+          {
+            "url": "https://gojiberry.ai/sitemap_fr-FR.xml",
+            "status": 200,
+            "finalUrl": "https://gojiberry.ai/sitemap_fr-FR.xml",
+            "locCount": 27
+          }
+        ],
+        "urlCount": 54,
+        "truncated": false,
+        "pageFamilies": [
+          {
+            "family": "/affiliate-program-gojiberry",
+            "count": 2
+          },
+          {
+            "family": "/general-terms",
+            "count": 2
+          },
+          {
+            "family": "/privacy-policy",
+            "count": 2
+          },
+          {
+            "family": "/legal-notice",
+            "count": 2
+          },
+          {
+            "family": "/tutorial",
+            "count": 2
+          },
+          {
+            "family": "/sales-navigator-filters-generator",
+            "count": 2
+          },
+          {
+            "family": "/free-mail-subject-line-generator",
+            "count": 2
+          },
+          {
+            "family": "/free-ai-persona-generator",
+            "count": 2
+          },
+          {
+            "family": "/icp-generator",
+            "count": 2
+          },
+          {
+            "family": "/free-outreach-message-analyser",
+            "count": 2
+          },
+          {
+            "family": "/100-ai-directories-where-you-can-list-your-saas-for-free",
+            "count": 2
+          },
+          {
+            "family": "/how-to-promote-your-saas-on-reddit",
+            "count": 2
+          },
+          {
+            "family": "/10kmrr",
+            "count": 2
+          },
+          {
+            "family": "/300-grants-for-your-startup",
+            "count": 2
+          },
+          {
+            "family": "/100-n8n-flows",
+            "count": 2
+          },
+          {
+            "family": "/faq",
+            "count": 2
+          },
+          {
+            "family": "/gtmcourse",
+            "count": 2
+          },
+          {
+            "family": "/free-resources",
+            "count": 2
+          },
+          {
+            "family": "/case-study",
+            "count": 2
+          },
+          {
+            "family": "/case-study-wispra",
+            "count": 2
+          }
+        ],
+        "locales": [
+          {
+            "locale": "fr",
+            "count": 27
+          }
+        ],
+        "samples": [
+          "https://gojiberry.ai/",
+          "https://gojiberry.ai/affiliate-program-gojiberry",
+          "https://gojiberry.ai/general-terms",
+          "https://gojiberry.ai/privacy-policy",
+          "https://gojiberry.ai/legal-notice",
+          "https://gojiberry.ai/tutorial",
+          "https://gojiberry.ai/sales-navigator-filters-generator",
+          "https://gojiberry.ai/free-mail-subject-line-generator",
+          "https://gojiberry.ai/free-ai-persona-generator",
+          "https://gojiberry.ai/icp-generator",
+          "https://gojiberry.ai/free-outreach-message-analyser",
+          "https://gojiberry.ai/100-ai-directories-where-you-can-list-your-saas-for-free",
+          "https://gojiberry.ai/how-to-promote-your-saas-on-reddit",
+          "https://gojiberry.ai/10kmrr",
+          "https://gojiberry.ai/300-grants-for-your-startup",
+          "https://gojiberry.ai/100-n8n-flows",
+          "https://gojiberry.ai/faq",
+          "https://gojiberry.ai/gtmcourse",
+          "https://gojiberry.ai/free-resources",
+          "https://gojiberry.ai/case-study"
+        ]
+      },
+      "aiDiscovery": {
+        "llmsTxtStatus": 404,
+        "llmsTxtBytes": 10,
+        "aiTxtStatus": 404,
+        "aiTxtBytes": 10
+      }
+    },
+    {
+      "name": "Cometly",
+      "requestedHomepage": "https://www.cometly.com/",
+      "homepage": {
+        "status": 200,
+        "finalUrl": "https://www.cometly.com/",
+        "title": "Cometly | Marketing Attribution Software",
+        "description": "Cometly is the leading marketing attribution software, offering real-time insights into ad performance. Get accurate data, and prove ROI with ease.",
+        "canonical": "https://www.cometly.com",
+        "h1s": [
+          "AI Marketing Attribution For B2B SaaS Companies"
+        ],
+        "h1Count": 1,
+        "jsonLdTypes": [
+          "ContactPoint",
+          "ImageObject",
+          "Offer",
+          "Organization",
+          "PostalAddress",
+          "SoftwareApplication",
+          "WebSite"
+        ],
+        "internalLinkCount": 182,
+        "uniqueInternalLinkCount": 95,
+        "externalLinkCount": 14,
+        "externalHosts": [
+          "app.cometly.com",
+          "docs.cometly.com",
+          "help.cometly.com",
+          "www.facebook.com",
+          "www.instagram.com",
+          "www.linkedin.com",
+          "www.youtube.com",
+          "x.com"
+        ]
+      },
+      "robots": {
+        "url": "https://www.cometly.com/robots.txt",
+        "status": 200,
+        "sitemapDirectives": [
+          "https://www.cometly.com/sitemap.xml"
+        ]
+      },
+      "sitemap": {
+        "discoveredSitemaps": [
+          {
+            "url": "https://www.cometly.com/sitemap.xml",
+            "status": 200,
+            "finalUrl": "https://www.cometly.com/sitemap.xml",
+            "locCount": 5727
+          },
+          {
+            "url": "https://www.cometly.com/sitemap_index.xml",
+            "status": 404,
+            "finalUrl": "https://www.cometly.com/sitemap_index.xml",
+            "locCount": 0
+          }
+        ],
+        "urlCount": 5727,
+        "truncated": false,
+        "pageFamilies": [
+          {
+            "family": "/post",
+            "count": 5338
+          },
+          {
+            "family": "/integration",
+            "count": 206
+          },
+          {
+            "family": "/academy",
+            "count": 34
+          },
+          {
+            "family": "/customers",
+            "count": 29
+          },
+          {
+            "family": "/topics",
+            "count": 23
+          },
+          {
+            "family": "/platform",
+            "count": 17
+          },
+          {
+            "family": "/solutions",
+            "count": 16
+          },
+          {
+            "family": "/guides",
+            "count": 14
+          },
+          {
+            "family": "/demo",
+            "count": 6
+          },
+          {
+            "family": "/author",
+            "count": 4
+          },
+          {
+            "family": "/onboarding",
+            "count": 3
+          },
+          {
+            "family": "/",
+            "count": 1
+          },
+          {
+            "family": "/about-us",
+            "count": 1
+          },
+          {
+            "family": "/acceptable-use",
+            "count": 1
+          },
+          {
+            "family": "/affiliate-program-agreement",
+            "count": 1
+          },
+          {
+            "family": "/affiliates",
+            "count": 1
+          },
+          {
+            "family": "/agency-partners",
+            "count": 1
+          },
+          {
+            "family": "/ai-policy",
+            "count": 1
+          },
+          {
+            "family": "/blog",
+            "count": 1
+          },
+          {
+            "family": "/contact",
+            "count": 1
+          }
+        ],
+        "locales": [],
+        "samples": [
+          "https://www.cometly.com/",
+          "https://www.cometly.com/about-us",
+          "https://www.cometly.com/academy",
+          "https://www.cometly.com/acceptable-use",
+          "https://www.cometly.com/affiliate-program-agreement",
+          "https://www.cometly.com/affiliates",
+          "https://www.cometly.com/agency-partners",
+          "https://www.cometly.com/ai-policy",
+          "https://www.cometly.com/blog",
+          "https://www.cometly.com/contact",
+          "https://www.cometly.com/cookie-policy",
+          "https://www.cometly.com/customers",
+          "https://www.cometly.com/demo",
+          "https://www.cometly.com/demo/attribution-software",
+          "https://www.cometly.com/demo/b2b-marketing-attribution",
+          "https://www.cometly.com/demo/marketing-analytics",
+          "https://www.cometly.com/demo/marketing-attribution-software",
+          "https://www.cometly.com/demo/multi-touch-attribution",
+          "https://www.cometly.com/dpa",
+          "https://www.cometly.com/dsar-opt-out"
+        ]
+      },
+      "aiDiscovery": {
+        "llmsTxtStatus": 200,
+        "llmsTxtBytes": 11207,
+        "aiTxtStatus": 404,
+        "aiTxtBytes": 191451
+      }
+    },
+    {
+      "name": "Nutshellapp",
+      "requestedHomepage": "https://nutshellapp.com/",
+      "homepage": {
+        "status": null,
+        "finalUrl": "https://nutshellapp.com/",
+        "title": null,
+        "description": null,
+        "canonical": null,
+        "h1s": [],
+        "h1Count": 0,
+        "jsonLdTypes": [],
+        "internalLinkCount": 0,
+        "uniqueInternalLinkCount": 0,
+        "externalLinkCount": 0,
+        "externalHosts": []
+      },
+      "robots": {
+        "url": "https://nutshellapp.com/robots.txt",
+        "status": null,
+        "sitemapDirectives": []
+      },
+      "sitemap": {
+        "discoveredSitemaps": [
+          {
+            "url": "https://nutshellapp.com/sitemap.xml",
+            "status": null,
+            "finalUrl": "https://nutshellapp.com/sitemap.xml",
+            "locCount": 0
+          },
+          {
+            "url": "https://nutshellapp.com/sitemap_index.xml",
+            "status": null,
+            "finalUrl": "https://nutshellapp.com/sitemap_index.xml",
+            "locCount": 0
+          }
+        ],
+        "urlCount": 0,
+        "truncated": false,
+        "pageFamilies": [],
+        "locales": [],
+        "samples": []
+      },
+      "aiDiscovery": {
+        "llmsTxtStatus": null,
+        "llmsTxtBytes": 0,
+        "aiTxtStatus": null,
+        "aiTxtBytes": 0
+      }
+    },
+    {
+      "name": "GenVideo AI",
+      "requestedHomepage": "https://genvideo.app/",
+      "homepage": {
+        "status": 200,
+        "finalUrl": "https://genvideo.app/",
+        "title": "Free AI Video Generator Online | One Idea, Multiple Models",
+        "description": "Generate AI videos from text or images with GenVideo&#x27;s free AI video generator. Turn prompts into video with Veo 3.1, Seedance, Kling, Wan, and Grok Imagine.",
+        "canonical": "https://genvideo.app",
+        "h1s": [
+          "Create AI Product Video Ads Online from Your Images"
+        ],
+        "h1Count": 1,
+        "jsonLdTypes": [
+          "Answer",
+          "FAQPage",
+          "ImageObject",
+          "Organization",
+          "Question",
+          "WebPage",
+          "WebSite"
+        ],
+        "internalLinkCount": 42,
+        "uniqueInternalLinkCount": 36,
+        "externalLinkCount": 30,
+        "externalHosts": [
+          "acidtools.com",
+          "aidirs.best",
+          "aidirs.org",
+          "aifinderplus.com",
+          "aitoolcenter.com",
+          "aitop10.tools",
+          "allinai.tools",
+          "code.market",
+          "dayslaunch.com",
+          "fazier.com",
+          "findly.tools",
+          "goodaitools.com",
+          "huntifyai.com",
+          "kittylaunch.com",
+          "mossai.org",
+          "navs.site",
+          "productwing.com",
+          "showmebest.ai",
+          "startupfa.me",
+          "submitaitools.org",
+          "theonestartup.com",
+          "theresanaiforthat.com",
+          "tooldirs.com",
+          "turbo0.com",
+          "twelve.tools",
+          "unitelist.com",
+          "www.agenthunter.io",
+          "www.seewhatnewai.com",
+          "www.showmysites.com",
+          "yo.directory"
+        ]
+      },
+      "robots": {
+        "url": "https://genvideo.app/robots.txt",
+        "status": 200,
+        "sitemapDirectives": [
+          "https://genvideo.app/sitemap.xml"
+        ]
+      },
+      "sitemap": {
+        "discoveredSitemaps": [
+          {
+            "url": "https://genvideo.app/sitemap.xml",
+            "status": 200,
+            "finalUrl": "https://genvideo.app/sitemap.xml",
+            "locCount": 472
+          },
+          {
+            "url": "https://genvideo.app/sitemap_index.xml",
+            "status": 200,
+            "finalUrl": "https://genvideo.app/sitemap_index.xml",
+            "locCount": 0
+          }
+        ],
+        "urlCount": 472,
+        "truncated": false,
+        "pageFamilies": [
+          {
+            "family": "/showcase",
+            "count": 280
+          },
+          {
+            "family": "/pricing",
+            "count": 10
+          },
+          {
+            "family": "/text-to-video",
+            "count": 10
+          },
+          {
+            "family": "/image-to-video",
+            "count": 10
+          },
+          {
+            "family": "/video-to-video",
+            "count": 10
+          },
+          {
+            "family": "/ai-video-editor",
+            "count": 10
+          },
+          {
+            "family": "/ai-video-extender",
+            "count": 10
+          },
+          {
+            "family": "/ai-video-upscaler",
+            "count": 10
+          },
+          {
+            "family": "/ai-video-frame-interpolation",
+            "count": 10
+          },
+          {
+            "family": "/ai-image-generator",
+            "count": 10
+          },
+          {
+            "family": "/text-to-image",
+            "count": 10
+          },
+          {
+            "family": "/image-to-image",
+            "count": 10
+          },
+          {
+            "family": "/ai-product-ads",
+            "count": 10
+          },
+          {
+            "family": "/flow-ai-video",
+            "count": 10
+          },
+          {
+            "family": "/seedance-2-5",
+            "count": 10
+          },
+          {
+            "family": "/ai-video-camera-movement-prompts",
+            "count": 10
+          },
+          {
+            "family": "/seedance-2-5-prompts",
+            "count": 10
+          },
+          {
+            "family": "/product-photo-to-video-prompts",
+            "count": 10
+          },
+          {
+            "family": "/free-veo-video-generator",
+            "count": 10
+          },
+          {
+            "family": "/posts",
+            "count": 2
+          }
+        ],
+        "locales": [
+          {
+            "locale": "zh",
+            "count": 48
+          },
+          {
+            "locale": "fr",
+            "count": 47
+          },
+          {
+            "locale": "es",
+            "count": 47
+          },
+          {
+            "locale": "ja",
+            "count": 47
+          },
+          {
+            "locale": "ko",
+            "count": 47
+          },
+          {
+            "locale": "pt",
+            "count": 47
+          },
+          {
+            "locale": "pt-br",
+            "count": 47
+          },
+          {
+            "locale": "it",
+            "count": 47
+          },
+          {
+            "locale": "de",
+            "count": 47
+          }
+        ],
+        "samples": [
+          "https://genvideo.app/",
+          "https://genvideo.app/pricing",
+          "https://genvideo.app/showcase",
+          "https://genvideo.app/posts",
+          "https://genvideo.app/text-to-video",
+          "https://genvideo.app/image-to-video",
+          "https://genvideo.app/video-to-video",
+          "https://genvideo.app/ai-video-editor",
+          "https://genvideo.app/ai-video-extender",
+          "https://genvideo.app/ai-video-upscaler",
+          "https://genvideo.app/ai-video-frame-interpolation",
+          "https://genvideo.app/ai-image-generator",
+          "https://genvideo.app/text-to-image",
+          "https://genvideo.app/image-to-image",
+          "https://genvideo.app/ai-product-ads",
+          "https://genvideo.app/flow-ai-video",
+          "https://genvideo.app/seedance-2-5",
+          "https://genvideo.app/ai-video-camera-movement-prompts",
+          "https://genvideo.app/seedance-2-5-prompts",
+          "https://genvideo.app/product-photo-to-video-prompts"
+        ]
+      },
+      "aiDiscovery": {
+        "llmsTxtStatus": 200,
+        "llmsTxtBytes": 28630,
+        "aiTxtStatus": 200,
+        "aiTxtBytes": 500623
+      }
+    }
+  ]
+}

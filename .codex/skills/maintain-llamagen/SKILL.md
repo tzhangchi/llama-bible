@@ -1,6 +1,6 @@
 ---
 name: maintain-llamagen
-description: Route, implement, debug, review, and verify maintenance across the LlamaGen umbrella workspace and its independent repositories. Use when a task mentions backend.llamagen.ai, context_base, draw, generate-server, help.llamagen.ai, heyform, llama-canvas.llamagen.ai, llamagen-cli, llamagen.ai, manga-translator, manga.llamagen.ai, oss.llamagen.ai, story.llamagen.ai, waiting-animation, or workflow.llamagen.ai; also use for cross-repository API/proxy contracts, local multi-service development, Prisma schema synchronization, generation providers, public pages, SEO, localization, CDN assets, admin operations, editor persistence, or workspace-wide status checks. Do not use for unrelated repositories.
+description: Route, implement, debug, review, and verify maintenance across the LlamaGen umbrella workspace and its independent repositories. Use when a task mentions backend.llamagen.ai, context_base, draw, generate-server, help.llamagen.ai, heyform, llama-canvas.llamagen.ai, llamagen-cli, llamagen.ai, manga-translator, manga.llamagen.ai, oss.llamagen.ai, story.llamagen.ai, velika, waiting-animation, or workflow.llamagen.ai; also use for cross-repository API/proxy contracts, local multi-service development, Prisma schema synchronization, generation providers, public pages, SEO, localization, CDN assets, admin operations, desktop clients, editor persistence, untracked temporary-file auditing or cleanup, and workspace-wide status checks. Do not use for unrelated repositories.
 ---
 
 # Maintain LlamaGen
@@ -48,6 +48,23 @@ Read [references/local-development.md](references/local-development.md) whenever
 - Originate primary Prisma changes and migrations only in `llamagen.ai`; synchronize the complete `prisma/schema.prisma` into affected consumer repositories only after reviewing the source change.
 - Do not deploy, upload, purge CDN caches, migrate production data, send messages, run cron jobs, activate providers, or push unless explicitly requested.
 - Never expose `.env*`, credential JSON, API keys, customer content, or local reports.
+
+### Audit and reclaim local disk space
+
+When asked to inspect or clean untracked temporary files, use the deterministic workspace script instead of `git clean`:
+
+```bash
+# Dry-run report across the umbrella workspace; this is the default.
+node .codex/skills/maintain-llamagen/scripts/workspace-temp-cleanup.mjs
+
+# Limit the report to one repository.
+node .codex/skills/maintain-llamagen/scripts/workspace-temp-cleanup.mjs --repo llamagen.ai
+
+# Delete only the reviewed, allowlisted cache/build/test paths.
+node .codex/skills/maintain-llamagen/scripts/workspace-temp-cleanup.mjs --apply
+```
+
+The script never removes ordinary untracked files, evidence archives, reports, environment files, or temp-like directories containing tracked files. Dependency directories such as `node_modules` remain report-only unless `--include-dependencies` is also supplied. Run the default dry-run first, review the selected paths, and treat an actual workspace cleanup as a destructive action that requires explicit user authorization.
 
 ## Verify proportionally
 

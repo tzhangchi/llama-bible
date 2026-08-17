@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "caseId": "script-2000-to-12-pages",
+  "scope": "public-delivery",
+  "archivedAt": "2026-08-11T14:39:34.612Z",
+  "source": "llamagen.ai/public/evidence/script-2000-to-12-pages",
+  "archive": ".codex/skills/produce-comic-delivery-evidence/assets/local-public-archives/script-2000-to-12-pages",
+  "storageMode": "copy-fallback",
+  "fallbackCopies": 16,
+  "summary": {
+    "files": 16,
+    "bytes": 22529784,
+    "textFiles": 1,
+    "imageFiles": 13,
+    "otherFiles": 2
+  },
+  "files": [
+    {
+      "path": "contact-sheet.webp",
+      "bytes": 563988,
+      "sha256": "da647ef8605aeb3af034144d7f7f7a4e4526ea32160147c5db5b9d6d4b822d24",
+      "kind": "image"
+    },
+    {
+      "path": "pages/page-01.webp",
+      "bytes": 329482,
+      "sha256": "a1c2e0eb7717f26b2bf08ea2b2e1a4969af821536db2e9edd326ab595ce6f98c",
+      "kind": "image"
+    },
+    {
+      "path": "pages/page-02.webp",
+      "bytes": 308454,
+      "sha256": "a4229b412cf15f8460ac345096ec66d04c177b14d2670b5d818f180aec131d69",
+      "kind": "image"
+    },
+    {
+      "path": "pages/page-03.webp",
+      "bytes": 367612,
+      "sha256": "95386a067ec0b57d3a3ff050d9c99ee5e3837f24486253b827266bac3207b625",
+      "kind": "image"
+    },
+    {
+      "path": "pages/page-04.webp",
+      "bytes": 375534,
+      "sha256": "32f571c21542eff685f43d6ded3169730269c27e6e825e27b7cd9ac21566df53",
+      "kind": "image"
+    },
+    {
+      "path": "pages/page-05.webp",
+      "bytes": 370542,
+      "sha256": "914670731728f430d5b4e2ce73992164e745f646eb241ff8c0fc22620d432daa",
+      "kind": "image"
+    },
+    {
+      "path": "pages/page-06.webp",
+      "bytes": 384800,
+      "sha256": "2c85507826eee496c698167de0244c28421a03a764aaeb9b0d8d6e45ee0155fc",
+      "kind": "image"
+    },
+    {
+      "path": "pages/page-07.webp",
+      "bytes": 452344,
+      "sha256": "a87f5120674adb846d12ed52b55be165e0521097d182cb034024a34d06daa037",
+      "kind": "image"
+    },
+    {
+      "path": "pages/page-08.webp",
+      "bytes": 384660,
+      "sha256": "079028756c1bb4cf2eea71a1bbdb271fdad1b5c041d50845f4e6bed2043fb0a0",
+      "kind": "image"
+    },
+    {
+      "path": "pages/page-09.webp",
+      "bytes": 331680,
+      "sha256": "1e14119d687d07ddc9bf3068099318d3afe4e096382276d29e6c1a525d59de69",
+      "kind": "image"
+    },
+    {
+      "path": "pages/page-10.webp",
+      "bytes": 402970,
+      "sha256": "91836b3bce894e68825dafb172aa1ba73b10980278dcb4e77f7defd69a2c0646",
+      "kind": "image"
+    },
+    {
+      "path": "pages/page-11.webp",
+      "bytes": 423318,
+      "sha256": "f254893cd3f154eed93dee5adfa7af3c9d461f8c1526b41790a4b61bbc1f435a",
+      "kind": "image"
+    },
+    {
+      "path": "pages/page-12.webp",
+      "bytes": 433974,
+      "sha256": "88d374bb8c63bd4484d966a3b8f86cb735431eae1009eac4d777c82662d02302",
+      "kind": "image"
+    },
+    {
+      "path": "source.md",
+      "bytes": 13481,
+      "sha256": "f09dd8ed3a73b2d2703550f92e3ae4d310de72ced010e8e6011ced5c2963b1a0",
+      "kind": "text"
+    },
+    {
+      "path": "the-last-light-of-meridian-station.cbz",
+      "bytes": 4565045,
+      "sha256": "a1a4a5a60826296b4c1051a8c0cbcb00f967521fd17e64b5421ad6369bfcb4ce",
+      "kind": "other"
+    },
+    {
+      "path": "the-last-light-of-meridian-station.pdf",
+      "bytes": 12821900,
+      "sha256": "0d27a28053e1db2ed88ea40d56ff4742702b9de2b4e903f316929eee1c4c0bfc",
+      "kind": "other"
+    }
+  ]
+}

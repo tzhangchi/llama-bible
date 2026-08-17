@@ -121,6 +121,16 @@ Use `../scripts/workspace-status.sh` for a current snapshot.
 - Recent maintenance themes: collaborative editing and undo/redo, visual-scene briefs, wordless image prompt constraints, organization invitations, and Cloudflare location headers.
 - Use `npm run build:local` rather than upload builds. Its package scripts deliberately forbid local database migrations; change schema/API in the authoritative main/API checkout.
 
+### `velika`
+
+- Remote: `aregrid/velika`, branch observed: `master`; read-only upstream source: `KDE/krita` `master` snapshot `40ca754a8c9a384f2f65ed18e88553bb0986a571`.
+- Stack: KDE/Krita C++17 desktop application using Qt and KDE Frameworks; GPL-licensed.
+- Owns the Velika professional painting desktop client, `.velika` project/context format, native Story Docker, and future LlamaGen Context/Memory integration.
+- During v0.1, preserve Krita's paint engine, image pipeline, canvas, layer, color, PSD/KRA and animation foundations. New domain code belongs in `libs/velika`; new desktop UI belongs in `plugins/dockers/velika`.
+- `.vlk` is the visual source of truth, while `.kra` remains a legacy interchange format. `.velika` stores versioned story, character, scene, memory and style context and must never contain credentials.
+- Verify focused CMake targets `velikaproject` and `kritavelikastorydocker`, then `ctest -R VelikaProjectTest`. Full configuration requires the same Qt/KDE prerequisites as Krita.
+- Respect Krita's upstream AI moratorium: never submit AI-assisted Velika work to KDE/Krita. Treat packaging, signing, update feeds and live cloud calls as separate explicit effects.
+
 ### `waiting-animation`
 
 - Local ignored Next.js 16/React 19 prototype with a pnpm lockfile and no independent Git repository.

@@ -19,6 +19,7 @@ projects=(
   manga.llamagen.ai
   oss.llamagen.ai
   story.llamagen.ai
+  velika
   waiting-animation
   workflow.llamagen.ai
 )

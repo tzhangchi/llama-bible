@@ -1,0 +1,4 @@
+interface:
+  display_name: "Produce Comic Delivery Evidence"
+  short_description: "Generate and publish auditable comic delivery proof"
+  default_prompt: "Use $produce-comic-delivery-evidence to create the next verified comic delivery evidence case."

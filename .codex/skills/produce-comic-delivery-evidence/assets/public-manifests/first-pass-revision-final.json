@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "caseId": "first-pass-revision-final",
+  "scope": "public-delivery",
+  "archivedAt": "2026-08-11T14:39:38.152Z",
+  "source": "llamagen.ai/public/evidence/first-pass-revision-final",
+  "archive": ".codex/skills/produce-comic-delivery-evidence/assets/local-public-archives/first-pass-revision-final",
+  "storageMode": "copy-fallback",
+  "fallbackCopies": 7,
+  "summary": {
+    "files": 7,
+    "bytes": 21535329,
+    "textFiles": 1,
+    "imageFiles": 4,
+    "otherFiles": 2
+  },
+  "files": [
+    {
+      "path": "final-delivery-page-07.webp",
+      "bytes": 1946740,
+      "sha256": "532d0d25a054aba4d41c981424892222376d6702c095928611dff2e743c85951",
+      "kind": "image"
+    },
+    {
+      "path": "final-delivery-panel-02.webp",
+      "bytes": 166452,
+      "sha256": "fc98bd36c3804417b9c4503cbcdb3b727e083f0e459ff63d904c5fddb5668520",
+      "kind": "image"
+    },
+    {
+      "path": "first-delivery-panel-02.webp",
+      "bytes": 173146,
+      "sha256": "5af3a10f2cb308ea7b6f94c2d7961ab41ccbf2c0fa7f9ac0676df116cc62fd48",
+      "kind": "image"
+    },
+    {
+      "path": "page-07-panel-02-comparison.webp",
+      "bytes": 358914,
+      "sha256": "6d613d2883a33b82d29fff082b79b02384618934e6e91701f79af6f06e16f791",
+      "kind": "image"
+    },
+    {
+      "path": "requested-change.md",
+      "bytes": 510,
+      "sha256": "45600cb4d9c3c806a34f1b2c3beca286ec1c593b5112074bc50285ded8a2bf7e",
+      "kind": "text"
+    },
+    {
+      "path": "the-last-light-of-meridian-station-revised.pdf",
+      "bytes": 12829815,
+      "sha256": "eab82383b257274a4121b12d9da62823ad19cd09ad931e964ea3eb5ff957ca9f",
+      "kind": "other"
+    },
+    {
+      "path": "the-last-light-revised.cbz",
+      "bytes": 6059752,
+      "sha256": "6026b4133bd5fff51d81b10d369d3d5af35c3362439cd996cc29c4e4c18e557a",
+      "kind": "other"
+    }
+  ]
+}

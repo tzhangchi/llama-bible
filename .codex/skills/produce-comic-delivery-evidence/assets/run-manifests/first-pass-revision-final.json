@@ -1,0 +1,199 @@
+{
+  "schemaVersion": 1,
+  "caseId": "first-pass-revision-final",
+  "scope": "generation-run",
+  "archivedAt": "2026-08-11T14:39:26.400Z",
+  "source": "llamagen.ai/tmp/comic-delivery-evidence/first-pass-revision-final",
+  "archive": ".codex/skills/produce-comic-delivery-evidence/assets/local-run-archives/first-pass-revision-final",
+  "storageMode": "copy-fallback",
+  "fallbackCopies": 30,
+  "summary": {
+    "files": 30,
+    "bytes": 23564519,
+    "textFiles": 11,
+    "imageFiles": 18,
+    "otherFiles": 1
+  },
+  "files": [
+    {
+      "path": "approved-section.json",
+      "bytes": 8141,
+      "sha256": "940980a8c2a24b07aea83c800fea18f4962d493c6402173cdc9b31d7e8f19e5f",
+      "kind": "text"
+    },
+    {
+      "path": "approved-section.md",
+      "bytes": 2968,
+      "sha256": "d1d22744932020ce5dfb74dc4460f35ef8614897fa8fe1da878289399cd2e3ae",
+      "kind": "text"
+    },
+    {
+      "path": "brief.md",
+      "bytes": 1231,
+      "sha256": "8fb56f8ffb0d8b4e61bf18bbeb54f7fd397314cd280aa9a4d091d0d315f88116",
+      "kind": "text"
+    },
+    {
+      "path": "evidence.json",
+      "bytes": 7915,
+      "sha256": "0ff2e3cef04a9239a476aa19e84371eda58ae6055eb84392628714235a6f09a7",
+      "kind": "text"
+    },
+    {
+      "path": "generated/attempts/seed-20260818.png",
+      "bytes": 8313935,
+      "sha256": "dd61b8f3768cc2ac6c16d473974bb9acbed527b411c215456e2c8eb9c3afe029",
+      "kind": "image"
+    },
+    {
+      "path": "generated/final-delivery/page-07-panel-02.webp",
+      "bytes": 166452,
+      "sha256": "fc98bd36c3804417b9c4503cbcdb3b727e083f0e459ff63d904c5fddb5668520",
+      "kind": "image"
+    },
+    {
+      "path": "generated/final-delivery/page-07.webp",
+      "bytes": 1946740,
+      "sha256": "532d0d25a054aba4d41c981424892222376d6702c095928611dff2e743c85951",
+      "kind": "image"
+    },
+    {
+      "path": "generated/final-delivery/pages/page-01.webp",
+      "bytes": 329482,
+      "sha256": "a1c2e0eb7717f26b2bf08ea2b2e1a4969af821536db2e9edd326ab595ce6f98c",
+      "kind": "image"
+    },
+    {
+      "path": "generated/final-delivery/pages/page-02.webp",
+      "bytes": 308454,
+      "sha256": "a4229b412cf15f8460ac345096ec66d04c177b14d2670b5d818f180aec131d69",
+      "kind": "image"
+    },
+    {
+      "path": "generated/final-delivery/pages/page-03.webp",
+      "bytes": 367612,
+      "sha256": "95386a067ec0b57d3a3ff050d9c99ee5e3837f24486253b827266bac3207b625",
+      "kind": "image"
+    },
+    {
+      "path": "generated/final-delivery/pages/page-04.webp",
+      "bytes": 375534,
+      "sha256": "32f571c21542eff685f43d6ded3169730269c27e6e825e27b7cd9ac21566df53",
+      "kind": "image"
+    },
+    {
+      "path": "generated/final-delivery/pages/page-05.webp",
+      "bytes": 370542,
+      "sha256": "914670731728f430d5b4e2ce73992164e745f646eb241ff8c0fc22620d432daa",
+      "kind": "image"
+    },
+    {
+      "path": "generated/final-delivery/pages/page-06.webp",
+      "bytes": 384800,
+      "sha256": "2c85507826eee496c698167de0244c28421a03a764aaeb9b0d8d6e45ee0155fc",
+      "kind": "image"
+    },
+    {
+      "path": "generated/final-delivery/pages/page-07.webp",
+      "bytes": 1946740,
+      "sha256": "532d0d25a054aba4d41c981424892222376d6702c095928611dff2e743c85951",
+      "kind": "image"
+    },
+    {
+      "path": "generated/final-delivery/pages/page-08.webp",
+      "bytes": 384660,
+      "sha256": "079028756c1bb4cf2eea71a1bbdb271fdad1b5c041d50845f4e6bed2043fb0a0",
+      "kind": "image"
+    },
+    {
+      "path": "generated/final-delivery/pages/page-09.webp",
+      "bytes": 331680,
+      "sha256": "1e14119d687d07ddc9bf3068099318d3afe4e096382276d29e6c1a525d59de69",
+      "kind": "image"
+    },
+    {
+      "path": "generated/final-delivery/pages/page-10.webp",
+      "bytes": 402970,
+      "sha256": "91836b3bce894e68825dafb172aa1ba73b10980278dcb4e77f7defd69a2c0646",
+      "kind": "image"
+    },
+    {
+      "path": "generated/final-delivery/pages/page-11.webp",
+      "bytes": 423318,
+      "sha256": "f254893cd3f154eed93dee5adfa7af3c9d461f8c1526b41790a4b61bbc1f435a",
+      "kind": "image"
+    },
+    {
+      "path": "generated/final-delivery/pages/page-12.webp",
+      "bytes": 433974,
+      "sha256": "88d374bb8c63bd4484d966a3b8f86cb735431eae1009eac4d777c82662d02302",
+      "kind": "image"
+    },
+    {
+      "path": "generated/final-delivery/the-last-light-revised.cbz",
+      "bytes": 6059752,
+      "sha256": "6026b4133bd5fff51d81b10d369d3d5af35c3362439cd996cc29c4e4c18e557a",
+      "kind": "other"
+    },
+    {
+      "path": "generated/first-delivery/page-07-panel-02.webp",
+      "bytes": 173146,
+      "sha256": "5af3a10f2cb308ea7b6f94c2d7961ab41ccbf2c0fa7f9ac0676df116cc62fd48",
+      "kind": "image"
+    },
+    {
+      "path": "generated/first-delivery/page-07.webp",
+      "bytes": 452344,
+      "sha256": "a87f5120674adb846d12ed52b55be165e0521097d182cb034024a34d06daa037",
+      "kind": "image"
+    },
+    {
+      "path": "generated/generation-state.json",
+      "bytes": 4129,
+      "sha256": "0b1194aea7f4fbf53ffbd3bea4cd1dda0d72909989bdfe3893ae3426051c0b2f",
+      "kind": "text"
+    },
+    {
+      "path": "generated/page-07-panel-02-comparison.webp",
+      "bytes": 358914,
+      "sha256": "6d613d2883a33b82d29fff082b79b02384618934e6e91701f79af6f06e16f791",
+      "kind": "image"
+    },
+    {
+      "path": "generated/requested-change.md",
+      "bytes": 510,
+      "sha256": "45600cb4d9c3c806a34f1b2c3beca286ec1c593b5112074bc50285ded8a2bf7e",
+      "kind": "text"
+    },
+    {
+      "path": "generation-plan.json",
+      "bytes": 1062,
+      "sha256": "3d6136d1dc2c8232186a32c86e7710fee4a453e149210990590a3f9227cd2504",
+      "kind": "text"
+    },
+    {
+      "path": "input/source.md",
+      "bytes": 163,
+      "sha256": "5ab1f2957e3becffb622f9c7de29555113da41dc2a77f38ea0324c2e8f94c2e0",
+      "kind": "text"
+    },
+    {
+      "path": "integration-review.json",
+      "bytes": 4489,
+      "sha256": "ca08c3fd4e3385b7094321e372026fafea8d12b7643ab5863a09a17c16356ada",
+      "kind": "text"
+    },
+    {
+      "path": "page-draft.md",
+      "bytes": 785,
+      "sha256": "770b9d9e067c307343291242f8b24b66f43d62a86f0a797c988b74235a59eb44",
+      "kind": "text"
+    },
+    {
+      "path": "quality-review.json",
+      "bytes": 2077,
+      "sha256": "7b6a12d1c3c72032dad6d32a849ac940ce0cf3b9f830db869c6372aca1e5923c",
+      "kind": "text"
+    }
+  ]
+}

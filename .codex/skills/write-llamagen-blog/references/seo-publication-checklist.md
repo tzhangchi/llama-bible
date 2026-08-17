@@ -42,8 +42,17 @@ Use `sameAs` consistently where schema is generated. Prefer official product, so
 
 ## Cover And Screenshot Standards
 
+For in-article generated visuals:
+
+- Tutorials, workflows, checklists, and creator education posts should include 2-4 custom explanatory images in the body.
+- Prefer visuals that teach a concept: character consistency grids, panel-layout thumbnails, before/after repair examples, storyboard-to-panel flows, speech-bubble placement examples, or prompt-to-output sequences.
+- Do not rely on pure text, tables, and existing product screenshots when the article explains a visual craft problem.
+- Avoid generated text inside images unless the workflow composites exact text afterward.
+- Upload body images to CDN and verify each URL before publishing or refreshing the live article.
+
 For generated covers:
 
+- For AI tool, plugin, workflow, release, and tutorial posts, default to a 16:9 LlamaGen.AI release poster. Start from a clean generated background in a supported poster style such as high-speed light beams, classic soft-focus blue, colorful soft-focus, tactile macro, real-scene fusion, organic lens soft-focus, warm dynamic gradient, or fruit macro; then composite the official logo and exact title/subtitle locally so typography does not drift.
 - Avoid visible text, pseudo-logos, fake UI labels, distorted screens, barcode-like decoration, and overlaid article titles.
 - Use photographic or polished poster composition with real workflow objects: tablet, storyboard sheets, comic panels, studio desk, creator reviewing panels, or production board.
 - Request widescreen framing with a clear subject and enough empty space for site overlays.

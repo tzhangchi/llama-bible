@@ -38,9 +38,18 @@ Create LlamaGen.AI content that is publishable, evidence-backed, and technically
 
 Read [references/seo-publication-checklist.md](references/seo-publication-checklist.md) before working on comparison pages, AI Overview recovery, cover generation, CDN assets, redirects, or publication validation.
 
+Core in-article visual rules:
+
+- For tutorials, workflows, checklists, and creator education posts, include 2-4 article-specific explanatory images in the body, not only a cover and generic product screenshots.
+- Use the image generation service for diagrams or visual examples that make the article easier to understand: workflow boards, before/after repair examples, panel-layout thumbnails, character consistency grids, speech-bubble placement examples, prompt-to-output sequences, or failure-vs-fixed comparisons.
+- Keep generated instructional images free of fake UI text, unreadable typography, fake logos, watermarks, and misleading product screenshots. Add exact labels locally only when needed.
+- Place each custom image next to the section it explains, with clear alt text and a short caption-like sentence in the article body.
+- A text-heavy article with only tables and existing product screenshots is not publish-ready unless the user explicitly asks for speed over visual quality.
+
 Core cover rules:
 
 - If a cover is missing, generate two high-quality options before publishing unless the user asks for direct execution.
+- For AI tool, plugin, workflow, release, and tutorial posts, prefer a 16:9 LlamaGen.AI release-poster cover: use a supported poster style such as high-speed light beams, classic soft-focus blue, colorful soft-focus, tactile macro, real-scene fusion, organic lens soft-focus, warm dynamic gradient, or fruit macro; include the official LlamaGen.AI logo; keep final title/subtitle text precise by compositing it after image generation when needed.
 - Prefer realistic workflow imagery, clear composition, no fake UI text, no generated typography, and enough negative space for downstream overlays.
 - For article imports that review multiple products, do not run a generic productivity-cover flow. Compose a LlamaGen.AI-branded wallpaper/background plus logo plus original product image when a neutral branded derivative is safer.
 - Upload or replace CDN assets only after explicit authorization, and verify the final URL returns the expected content type.

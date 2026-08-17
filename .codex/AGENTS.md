@@ -36,6 +36,7 @@
 | `manga.llamagen.ai` | Browser-first Manga Editor: canvas/layers, prompt composer, AI providers, persistence/version history | `npm run dev`, `npm run test:pages`, `npm run format:check` |
 | `oss.llamagen.ai` | Admin/operations UI, reporting, feedback, flags, billing analytics, internal SDK tooling | `npm run dev` (`:4000`), targeted Jest/Playwright checks |
 | `story.llamagen.ai` | Story workspace, collaborative editing, image/story prompts, organization flows | `npm run dev` (`:9000`), `npm run build:local`, targeted tests |
+| `velika` | Independent GPL desktop painting client based on KDE/Krita, with Velika project/context modules and native Story Docker | Focused CMake targets `velikaproject`, `kritavelikastorydocker`; `ctest -R VelikaProjectTest` |
 | `waiting-animation` | Small Next.js waiting-animation prototype; no independent `.git` directory | `pnpm dev`, `pnpm lint`, `pnpm build` |
 | `workflow.llamagen.ai` | Workflow editor frontend, templates, chatbot UI, canvas operations, sharing UI | `npm run dev` (`:5001`), `npm run test:jest`, `npm run test:templates` |
 
@@ -101,6 +102,13 @@ Read `.codex/skills/maintain-llamagen/references/workspace-map.md` for detailed 
 - Treat provider selection, request shaping, comic layout/cropping, reference-image limits, and remaining-panel semantics as cross-layer contracts. Check `generate-server`, the selected API checkout, and the calling UI before declaring the change complete.
 - For editor persistence, version history, undo/redo, autosave, or export changes, test reload/recovery as well as the immediate UI action.
 - `manga.llamagen.ai` must continue to support `file://`; follow its own `AGENTS.md` and update the relevant `llm_doc/` file when behavior changes.
+
+### Velika desktop fork
+
+- `velika` is an independent GPL repository based on KDE/Krita. Its `origin` is `aregrid/velika`; KDE/Krita is a read-only `upstream` source and must never receive AI-assisted Velika changes.
+- During v0.1, keep Krita's paint engine, image pipeline, canvas, layers, color management, PSD/KRA import, and animation foundations unchanged. Put new project/context code under `libs/velika` and desktop UI under `plugins/dockers/velika`.
+- Keep `.vlk` authoritative for pixels and layers, with `.kra` supported as a legacy interchange format. Use the versioned `.velika` manifest for story, character, scene, memory, style, and future generation provenance.
+- Treat desktop packaging, code signing, update feeds, LlamaGen authentication, and live Context API calls as explicit follow-up effects; do not infer them from a local client change.
 
 ## Common verification rules
 

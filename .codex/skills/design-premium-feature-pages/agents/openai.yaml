@@ -1,0 +1,4 @@
+interface:
+  display_name: "Design Premium Feature Pages"
+  short_description: "Build focused, editorial LlamaGen feature pages"
+  default_prompt: "Use $design-premium-feature-pages to redesign this feature page with the AI white background page as the quality bar."
